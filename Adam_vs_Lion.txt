@@ -1,0 +1,3802 @@
+Mini U-Net, cross-entropy loss, adam optimizer, batch size = 32, only resize to 128x128 augmentations
+Iteration: 1
+train loss: 0.9469884057839711
+train pixel accuracy: 0.7112494150797526
+train mean dice: 0.13502108963827292
+train left lung dice: 0.04881241685555627
+train right lung dice: 0.12800245595475038
+train trachea dice: 0.0011650492226781407
+train mean IOU: 0.11138402043531338
+train left lung IOU: 0.030026179982814937
+train right lung IOU: 0.07645312255869309
+train trachea IOU: 0.0005894161317573943
+train mean precision: 0.27167199924588203
+train left lung precision: 0.27717569321393964
+train right lung precision: 0.19759226366877555
+train trachea precision: 0.3402480306835705
+train mean recall: 0.3842089012265205
+train left lung recall: 0.04635317811431984
+train right lung recall: 0.2625296170823276
+train trachea recall: 0.019785551544222454
+test loss: 0.9163242280483246
+test pixel accuracy: 0.7059321403503418
+test mean dice: 0.1594720259308815
+test left lung dice: 0.022010409273207188
+test right lung dice: 0.02671816712245345
+test trachea dice: 2.1847829795307305e-10
+test mean IOU: 0.15175605937838554
+test left lung IOU: 0.011631405679509044
+test right lung IOU: 0.013949249172583222
+test trachea IOU: 2.1847829795307305e-10
+test mean precision: 0.3523242697119713
+test left lung precision: 0.014636862324550748
+test right lung precision: 0.042335924692451954
+test trachea precision: 1.0
+test mean recall: 0.2742675207555294
+test left lung recall: 0.06768715102225542
+test right lung recall: 0.02855289727449417
+test trachea recall: 2.1847829795307305e-10
+
+Iteration: 2
+train loss: 0.42526364227135977
+train pixel accuracy: 0.900004514058431
+train mean dice: 0.33601758678754173
+train left lung dice: 0.25293754947682223
+train right lung dice: 0.2624068404237429
+train trachea dice: 3.796178565940167e-10
+train mean IOU: 0.27941959649324416
+train left lung IOU: 0.16988222406556208
+train right lung IOU: 0.1756681972493728
+train trachea IOU: 3.796178565940167e-10
+train mean precision: 0.5708341747522354
+train left lung precision: 0.4334497660398483
+train right lung precision: 0.34155272841453554
+train trachea precision: 0.9375
+train mean recall: 0.48317117591698966
+train left lung recall: 0.3018167887503902
+train right lung recall: 0.3133216987053553
+train trachea recall: 2.5129368956082015e-10
+test loss: 0.4266870245337486
+test pixel accuracy: 0.8714280128479004
+test mean dice: 0.3973558694124222
+test left lung dice: 0.3200835660099983
+test right lung dice: 0.37979649752378464
+test trachea dice: 1.4727885230825244e-10
+test mean IOU: 0.31599613279104233
+test left lung IOU: 0.20085247606039047
+test right lung IOU: 0.25494837015867233
+test trachea IOU: 1.4727885230825244e-10
+test mean precision: 0.5708416253328323
+test left lung precision: 0.4208328276872635
+test right lung precision: 0.2916921228170395
+test trachea precision: 1.0
+test mean recall: 0.5360494256019592
+test left lung recall: 0.2861594185233116
+test right lung recall: 0.6501138210296631
+test trachea recall: 1.4727885230825244e-10
+
+Iteration: 3
+train loss: 0.25420460452636084
+train pixel accuracy: 0.9190806706746419
+train mean dice: 0.4003459801276525
+train left lung dice: 0.23703054090340933
+train right lung dice: 0.43692404131094614
+train trachea dice: 2.1257287689350571e-10
+train mean IOU: 0.32892300685246784
+train left lung IOU: 0.1490795290718476
+train right lung IOU: 0.31060612996419273
+train trachea IOU: 2.1257287689350571e-10
+train mean precision: 0.6278616845607757
+train left lung precision: 0.4813228001197179
+train right lung precision: 0.40226218005021414
+train trachea precision: 1.0
+train mean recall: 0.5301943262418111
+train left lung recall: 0.2010931206246217
+train right lung recall: 0.5436564932266871
+train trachea recall: 2.1257287689350571e-10
+test loss: 0.22701993957161903
+test pixel accuracy: 0.9273619651794434
+test mean dice: 0.40696729719638824
+test left lung dice: 0.3755370229482651
+test right lung dice: 0.39223986864089966
+test trachea dice: 2.5907715209272375e-10
+test mean IOU: 0.32410724461078644
+test left lung IOU: 0.25475945696234703
+test right lung IOU: 0.2644372396171093
+test trachea IOU: 2.5907715209272375e-10
+test mean precision: 0.694484531879425
+test left lung precision: 0.6234340518712997
+test right lung precision: 0.46001939475536346
+test trachea precision: 1.0
+test mean recall: 0.4262546896934509
+test left lung recall: 0.32344696670770645
+test right lung recall: 0.36156705766916275
+test trachea recall: 2.5907715209272375e-10
+
+Iteration: 4
+train loss: 0.19593770205974578
+train pixel accuracy: 0.9283497492472331
+train mean dice: 0.41730519334475197
+train left lung dice: 0.30474433799584705
+train right lung dice: 0.4221712092558543
+train trachea dice: 2.7767771137998666e-10
+train mean IOU: 0.3434994031985601
+train left lung IOU: 0.20402749478816987
+train right lung IOU: 0.3014706706007322
+train trachea IOU: 2.7767771137998666e-10
+train mean precision: 0.6423504491647084
+train left lung precision: 0.5043403416872024
+train right lung precision: 0.4227109432220459
+train trachea precision: 1.0
+train mean recall: 0.5442333300908406
+train left lung recall: 0.2928118035197258
+train right lung recall: 0.49092980325222013
+train trachea recall: 2.7767771137998666e-10
+test loss: 0.1755373477935791
+test pixel accuracy: 0.9364728927612305
+test mean dice: 0.48827948421239853
+test left lung dice: 0.5357153862714767
+test right lung dice: 0.43693554401397705
+test trachea dice: 1.9362229181085766e-10
+test mean IOU: 0.39572805166244507
+test left lung IOU: 0.38984254002571106
+test right lung IOU: 0.30515406280755997
+test trachea IOU: 1.9362229181085766e-10
+test mean precision: 0.6858455091714859
+test left lung precision: 0.5632104575634003
+test right lung precision: 0.4943259581923485
+test trachea precision: 1.0
+test mean recall: 0.55809585750103
+test left lung recall: 0.587713211774826
+test right lung recall: 0.4303243011236191
+test trachea recall: 1.9362229181085766e-10
+
+Iteration: 5
+train loss: 0.16422546903292337
+train pixel accuracy: 0.9386354446411133
+train mean dice: 0.4773703634738922
+train left lung dice: 0.4226664821306864
+train right lung dice: 0.4896528979142507
+train trachea dice: 2.5938649677222554e-10
+train mean IOU: 0.396091440320015
+train left lung IOU: 0.30239186584949496
+train right lung IOU: 0.36609076261520385
+train trachea IOU: 2.5938649677222554e-10
+train mean precision: 0.6925229569276173
+train left lung precision: 0.5738709012667338
+train right lung precision: 0.5036979248126348
+train trachea precision: 1.0
+train mean recall: 0.5754830718040467
+train left lung recall: 0.41308559079964957
+train right lung recall: 0.5352385888497034
+train trachea recall: 2.5938649677222554e-10
+test loss: 0.2691505327820778
+test pixel accuracy: 0.8980727195739746
+test mean dice: 0.4161977097392082
+test left lung dice: 0.41289176791906357
+test right lung dice: 0.3825763612985611
+test trachea dice: 2.1201019412275812e-10
+test mean IOU: 0.33286789804697037
+test left lung IOU: 0.2877192273736
+test right lung IOU: 0.257759440690279
+test trachea IOU: 2.1201019412275812e-10
+test mean precision: 0.6301117092370987
+test left lung precision: 0.5237111002206802
+test right lung precision: 0.3666239231824875
+test trachea precision: 1.0
+test mean recall: 0.47011249512434006
+test left lung recall: 0.3621137738227844
+test right lung recall: 0.43103622645139694
+test trachea recall: 2.1201019412275812e-10
+
+Iteration: 6
+train loss: 0.14806831503907839
+train pixel accuracy: 0.9510177612304688
+train mean dice: 0.5397279024124145
+train left lung dice: 0.532627746462822
+train right lung dice: 0.5344725857178371
+train trachea dice: 2.5185816302878785e-10
+train mean IOU: 0.4640988310178121
+train left lung IOU: 0.4176543752352397
+train right lung IOU: 0.42255873680114747
+train trachea IOU: 2.5185816302878785e-10
+train mean precision: 0.747180167833964
+train left lung precision: 0.6770136654376984
+train right lung precision: 0.564526770512263
+train trachea precision: 1.0
+train mean recall: 0.636303848028183
+train left lung recall: 0.5269440581401189
+train right lung recall: 0.5694674124320348
+train trachea recall: 2.5185816302878785e-10
+test loss: 0.16604936867952347
+test pixel accuracy: 0.9416227340698242
+test mean dice: 0.47977109253406525
+test left lung dice: 0.5690805315971375
+test right lung dice: 0.3780452460050583
+test trachea dice: 1.9670378867409077e-10
+test mean IOU: 0.399931401014328
+test left lung IOU: 0.4404204189777374
+test right lung IOU: 0.2671862915158272
+test trachea IOU: 1.9670378867409077e-10
+test mean precision: 0.6996131837368011
+test left lung precision: 0.4508468434214592
+test right lung precision: 0.6479926407337189
+test trachea precision: 1.0
+test mean recall: 0.6219483464956284
+test left lung recall: 0.8453912734985352
+test right lung recall: 0.28607870638370514
+test trachea recall: 1.9670378867409077e-10
+
+Iteration: 7
+train loss: 0.11656043753027916
+train pixel accuracy: 0.9637977600097656
+train mean dice: 0.5808331420024236
+train left lung dice: 0.5914776355028153
+train right lung dice: 0.5895634015401204
+train trachea dice: 2.354102389875064e-10
+train mean IOU: 0.5184894462426504
+train left lung IOU: 0.4976325084765752
+train right lung IOU: 0.496377436319987
+train trachea IOU: 2.354102389875064e-10
+train mean precision: 0.7737579862276713
+train left lung precision: 0.6972106168667476
+train right lung precision: 0.6240632841984431
+train trachea precision: 1.0
+train mean recall: 0.6924745202064514
+train left lung recall: 0.5874493618806204
+train right lung recall: 0.6003907700379689
+train trachea recall: 2.354102389875064e-10
+test loss: 0.13997087627649307
+test pixel accuracy: 0.953122615814209
+test mean dice: 0.4927259832620621
+test left lung dice: 0.3469209596514702
+test right lung dice: 0.5765694975852966
+test trachea dice: 1.8481369906675482e-10
+test mean IOU: 0.4264637976884842
+test left lung IOU: 0.2621263563632965
+test right lung IOU: 0.4625774994492531
+test trachea IOU: 1.8481369906675482e-10
+test mean precision: 0.8227093368768692
+test left lung precision: 0.9762289375066757
+test right lung precision: 0.4918989986181259
+test trachea precision: 1.0
+test mean recall: 0.5777790248394012
+test left lung recall: 0.2692415490746498
+test right lung recall: 0.7765954583883286
+test trachea recall: 1.8481369906675482e-10
+
+Iteration: 8
+train loss: 0.09210665052135786
+train pixel accuracy: 0.9728205998738607
+train mean dice: 0.6149122377236684
+train left lung dice: 0.6408116181691488
+train right lung dice: 0.6403833587964376
+train trachea dice: 2.581363800953825e-10
+train mean IOU: 0.563829646507899
+train left lung IOU: 0.5651695311069489
+train right lung IOU: 0.5627776861190796
+train trachea IOU: 2.581363800953825e-10
+train mean precision: 0.799886429309845
+train left lung precision: 0.7109242677688599
+train right lung precision: 0.6887349426746369
+train trachea precision: 1.0
+train mean recall: 0.7219420313835144
+train left lung recall: 0.6509361426035564
+train right lung recall: 0.6503065605958303
+train trachea recall: 2.581363800953825e-10
+test loss: 0.11520699597895145
+test pixel accuracy: 0.9654221534729004
+test mean dice: 0.586856797337532
+test left lung dice: 0.5510780513286591
+test right lung dice: 0.6860547512769699
+test trachea dice: 2.331305842817599e-10
+test mean IOU: 0.512442484498024
+test left lung IOU: 0.43480347841978073
+test right lung IOU: 0.5790864080190659
+test trachea IOU: 2.331305842817599e-10
+test mean precision: 0.836317241191864
+test left lung precision: 0.8604781031608582
+test right lung precision: 0.6484736055135727
+test trachea precision: 1.0
+test mean recall: 0.6375195235013962
+test left lung recall: 0.45574362576007843
+test right lung recall: 0.7927524000406265
+test trachea recall: 2.331305842817599e-10
+
+Iteration: 9
+train loss: 0.08058890290558338
+train pixel accuracy: 0.977549425760905
+train mean dice: 0.6272819558779399
+train left lung dice: 0.6794529775778453
+train right lung dice: 0.6690595229466756
+train trachea dice: 2.676005079564151e-10
+train mean IOU: 0.5812757611274719
+train left lung IOU: 0.611819542447726
+train right lung IOU: 0.5986743787924449
+train trachea IOU: 2.676005079564151e-10
+train mean precision: 0.8249308228492737
+train left lung precision: 0.751907761891683
+train right lung precision: 0.7249679903189341
+train trachea precision: 0.9979166666666667
+train mean recall: 0.7237272739410401
+train left lung recall: 0.6788048684597016
+train right lung recall: 0.6809185822804769
+train trachea recall: 2.537116211565049e-10
+test loss: 0.05660397093743086
+test pixel accuracy: 0.9843053817749023
+test mean dice: 0.6245192736387253
+test left lung dice: 0.739621713757515
+test right lung dice: 0.6729985028505325
+test trachea dice: 1.770760864328036e-10
+test mean IOU: 0.5801050066947937
+test left lung IOU: 0.6696954369544983
+test right lung IOU: 0.6096820533275604
+test trachea IOU: 1.770760864328036e-10
+test mean precision: 0.8293789476156235
+test left lung precision: 0.7110567092895508
+test right lung precision: 0.7770800739526749
+test trachea precision: 1.0
+test mean recall: 0.7242241948843002
+test left lung recall: 0.8150630593299866
+test right lung recall: 0.6388594657182693
+test trachea recall: 1.770760864328036e-10
+
+Iteration: 10
+train loss: 0.0674479566514492
+train pixel accuracy: 0.981365458170573
+train mean dice: 0.6516600906848907
+train left lung dice: 0.7307225465774536
+train right lung dice: 0.7256034036477407
+train trachea dice: 0.0028209122947048305
+train mean IOU: 0.6127439220746358
+train left lung IOU: 0.6739406188329061
+train right lung IOU: 0.666808400551478
+train trachea IOU: 0.0016493508050470214
+train mean precision: 0.8454800804456075
+train left lung precision: 0.7862477799256643
+train right lung precision: 0.7574840644995372
+train trachea precision: 0.9927083333333333
+train mean recall: 0.7382670839627584
+train left lung recall: 0.7277927994728088
+train right lung recall: 0.739525697628657
+train trachea recall: 0.0016493507674667806
+test loss: 0.06474318820983171
+test pixel accuracy: 0.9805436134338379
+test mean dice: 0.6879002004861832
+test left lung dice: 0.7077019214630127
+test right lung dice: 0.6841235160827637
+test trachea dice: 2.0819473922628617e-10
+test mean IOU: 0.6302194893360138
+test left lung IOU: 0.6226848810911179
+test right lung IOU: 0.596098467707634
+test trachea IOU: 2.0819473922628617e-10
+test mean precision: 0.8902994245290756
+test left lung precision: 0.8578695207834244
+test right lung precision: 0.8130286484956741
+test trachea precision: 1.0
+test mean recall: 0.7082909345626831
+test left lung recall: 0.6989323049783707
+test right lung recall: 0.6681279242038727
+test trachea recall: 2.0819473922628617e-10
+
+Iteration: 11
+train loss: 0.06293451326588789
+train pixel accuracy: 0.9829369227091471
+train mean dice: 0.6647737661997477
+train left lung dice: 0.7117819527784983
+train right lung dice: 0.7141956845919292
+train trachea dice: 0.007926935258282114
+train mean IOU: 0.6292806088924408
+train left lung IOU: 0.6612346986929576
+train right lung IOU: 0.6612592736879984
+train trachea IOU: 0.004931138290014194
+train mean precision: 0.8402554412682851
+train left lung precision: 0.789581960439682
+train right lung precision: 0.7616530517737071
+train trachea precision: 0.96953125
+train mean recall: 0.7668598771095276
+train left lung recall: 0.7124673426151276
+train right lung recall: 0.7248362461725871
+train trachea recall: 0.004942627114169748
+test loss: 0.04493761248886585
+test pixel accuracy: 0.9874944686889648
+test mean dice: 0.715708002448082
+test left lung dice: 0.776770830154419
+test right lung dice: 0.7680802941322327
+test trachea dice: 0.0007102274074122644
+test mean IOU: 0.6780048757791519
+test left lung IOU: 0.718646451830864
+test right lung IOU: 0.7134335935115814
+test trachea IOU: 0.00037202395907569297
+test mean precision: 0.897273987531662
+test left lung precision: 0.8979447782039642
+test right lung precision: 0.7938771396875381
+test trachea precision: 1.0
+test mean recall: 0.7646163105964661
+test left lung recall: 0.7529603838920593
+test right lung recall: 0.7905164659023285
+test trachea recall: 0.00037202395907569297
+
+Iteration: 12
+train loss: 0.0464952802285552
+train pixel accuracy: 0.9870777130126953
+train mean dice: 0.6817031959692638
+train left lung dice: 0.7350960274537405
+train right lung dice: 0.7439706206321717
+train trachea dice: 0.053542872130249934
+train mean IOU: 0.6453344702720643
+train left lung IOU: 0.6900050103664398
+train right lung IOU: 0.6973729769388834
+train trachea IOU: 0.03612534884984295
+train mean precision: 0.8521157463391622
+train left lung precision: 0.8235958198706309
+train right lung precision: 0.7975241601467132
+train trachea precision: 0.9352271993954976
+train mean recall: 0.7695262273152669
+train left lung recall: 0.7339837451775869
+train right lung recall: 0.7507190605004629
+train trachea recall: 0.03637581414853533
+test loss: 0.04067443963140249
+test pixel accuracy: 0.9875445365905762
+test mean dice: 0.6886737793684006
+test left lung dice: 0.7814185321331024
+test right lung dice: 0.6757158190011978
+test trachea dice: 0.09326192829757929
+test mean IOU: 0.632864698767662
+test left lung IOU: 0.7104661613702774
+test right lung IOU: 0.6116521656513214
+test trachea IOU: 0.0608507115393877
+test mean precision: 0.8367546498775482
+test left lung precision: 0.7599666863679886
+test right lung precision: 0.8005339801311493
+test trachea precision: 0.9497632682323456
+test mean recall: 0.7699753791093826
+test left lung recall: 0.8331064134836197
+test right lung recall: 0.6657708585262299
+test trachea recall: 0.06104871816933155
+
+Iteration: 13
+train loss: 0.042260902809600036
+train pixel accuracy: 0.9886247634887695
+train mean dice: 0.6899133066336314
+train left lung dice: 0.7298717240492503
+train right lung dice: 0.7278053164482117
+train trachea dice: 0.15372946510712307
+train mean IOU: 0.6512063801288605
+train left lung IOU: 0.6914162784814835
+train right lung IOU: 0.6887347062428792
+train trachea IOU: 0.11513478122651577
+train mean precision: 0.8209601581096649
+train left lung precision: 0.8252131501833598
+train right lung precision: 0.7967992464701334
+train trachea precision: 0.8408680081367492
+train mean recall: 0.8053977847099304
+train left lung recall: 0.7336715340614319
+train right lung recall: 0.7329029719034831
+train trachea recall: 0.11836879178881646
+test loss: 0.03559955768287182
+test pixel accuracy: 0.9906644821166992
+test mean dice: 0.7571035027503967
+test left lung dice: 0.8451194912195206
+test right lung dice: 0.8229781836271286
+test trachea dice: 0.1422752682119608
+test mean IOU: 0.7129070609807968
+test left lung IOU: 0.7988798767328262
+test right lung IOU: 0.778458759188652
+test trachea IOU: 0.10044504515826702
+test mean precision: 0.9043750464916229
+test left lung precision: 0.89193956553936
+test right lung precision: 0.8524355292320251
+test trachea precision: 0.96875
+test mean recall: 0.7952691912651062
+test left lung recall: 0.8466750532388687
+test right lung recall: 0.8527498692274094
+test trachea recall: 0.10044504515826702
+
+Iteration: 14
+train loss: 0.04810016273210446
+train pixel accuracy: 0.9857599258422851
+train mean dice: 0.7026197989781697
+train left lung dice: 0.725745842854182
+train right lung dice: 0.7193283200263977
+train trachea dice: 0.2013268490632375
+train mean IOU: 0.6581394036610921
+train left lung IOU: 0.6805542131265004
+train right lung IOU: 0.6739922523498535
+train trachea IOU: 0.15841339404384294
+train mean precision: 0.8017715255419413
+train left lung precision: 0.8104429582754771
+train right lung precision: 0.7997779806454977
+train trachea precision: 0.795093584060669
+train mean recall: 0.8286437610785167
+train left lung recall: 0.7304587225119273
+train right lung recall: 0.724501250187556
+train trachea recall: 0.1632629236827294
+test loss: 0.040072047151625156
+test pixel accuracy: 0.987703800201416
+test mean dice: 0.7173009365797043
+test left lung dice: 0.7284517735242844
+test right lung dice: 0.6955417543649673
+test trachea dice: 0.10290918964892626
+test mean IOU: 0.6726064682006836
+test left lung IOU: 0.6772449463605881
+test right lung IOU: 0.6465740650892258
+test trachea IOU: 0.06900036055594683
+test mean precision: 0.9325665533542633
+test left lung precision: 0.9521692842245102
+test right lung precision: 0.8470928221940994
+test trachea precision: 0.9984374940395355
+test mean recall: 0.724968895316124
+test left lung recall: 0.6899371445178986
+test right lung recall: 0.6970555782318115
+test trachea recall: 0.06916387844830751
+
+Iteration: 15
+train loss: 0.05068176196267207
+train pixel accuracy: 0.9850318908691407
+train mean dice: 0.6917963018019994
+train left lung dice: 0.6996010283629099
+train right lung dice: 0.7069209853808085
+train trachea dice: 0.19490848357478777
+train mean IOU: 0.6478433410326639
+train left lung IOU: 0.6555758794148763
+train right lung IOU: 0.6617001195748647
+train trachea IOU: 0.15229562775542338
+train mean precision: 0.799344418446223
+train left lung precision: 0.7986006081104279
+train right lung precision: 0.7782930195331573
+train trachea precision: 0.8211395760377248
+train mean recall: 0.8210553785165151
+train left lung recall: 0.7016598622004191
+train right lung recall: 0.711485747496287
+train trachea recall: 0.1573121242846052
+test loss: 0.04990859515964985
+test pixel accuracy: 0.9840841293334961
+test mean dice: 0.7338517308235168
+test left lung dice: 0.7183522433042526
+test right lung dice: 0.7214844971895218
+test trachea dice: 0.15234331600368023
+test mean IOU: 0.6802503168582916
+test left lung IOU: 0.6539179980754852
+test right lung IOU: 0.664203017950058
+test trachea IOU: 0.11325492151081562
+test mean precision: 0.9311157613992691
+test left lung precision: 0.9468889683485031
+test right lung precision: 0.8728254288434982
+test trachea precision: 0.9736328125
+test mean recall: 0.72739277780056
+test left lung recall: 0.6619144976139069
+test right lung recall: 0.7111703157424927
+test trachea recall: 0.11378101631999016
+
+Iteration: 16
+train loss: 0.04001083020120859
+train pixel accuracy: 0.9888461430867513
+train mean dice: 0.7359832108020783
+train left lung dice: 0.7433609127998352
+train right lung dice: 0.7456543823083241
+train trachea dice: 0.26580927322308223
+train mean IOU: 0.6956722716490428
+train left lung IOU: 0.7078968286514282
+train right lung IOU: 0.7077504913012187
+train trachea IOU: 0.2182444435854753
+train mean precision: 0.822741820414861
+train left lung precision: 0.8417109886805216
+train right lung precision: 0.8175057590007782
+train trachea precision: 0.8090086628993353
+train mean recall: 0.8498630344867706
+train left lung recall: 0.7427766144275665
+train right lung recall: 0.7488956610361736
+train trachea recall: 0.2297917438050111
+test loss: 0.02775590168312192
+test pixel accuracy: 0.9921326637268066
+test mean dice: 0.7770940959453583
+test left lung dice: 0.8204074054956436
+test right lung dice: 0.8277332335710526
+test trachea dice: 0.33157922327518463
+test mean IOU: 0.7346832156181335
+test left lung IOU: 0.7720260322093964
+test right lung IOU: 0.7844265848398209
+test trachea IOU: 0.29603441804647446
+test mean precision: 0.83755724132061
+test left lung precision: 0.9157149940729141
+test right lung precision: 0.9377811402082443
+test trachea precision: 0.6591755151748657
+test mean recall: 0.8733140379190445
+test left lung recall: 0.8118498623371124
+test right lung recall: 0.8095274269580841
+test trachea recall: 0.31887727975845337
+
+Iteration: 17
+train loss: 0.030157543408373993
+train pixel accuracy: 0.9913867950439453
+train mean dice: 0.7715769171714782
+train left lung dice: 0.7527324875195821
+train right lung dice: 0.7593376537164053
+train trachea dice: 0.3214105467001597
+train mean IOU: 0.7350866675376893
+train left lung IOU: 0.7217239280541737
+train right lung IOU: 0.7287697076797486
+train trachea IOU: 0.27351634204387665
+train mean precision: 0.8338618020216624
+train left lung precision: 0.8595808207988739
+train right lung precision: 0.8446358819802602
+train trachea precision: 0.7973686377207438
+train mean recall: 0.8808814903100332
+train left lung recall: 0.7544085800647735
+train right lung recall: 0.7631146808465322
+train trachea recall: 0.2938711817065875
+test loss: 0.022194165270775557
+test pixel accuracy: 0.9932327270507812
+test mean dice: 0.8257193565368652
+test left lung dice: 0.7899402379989624
+test right lung dice: 0.8134812116622925
+test trachea dice: 0.35029907524585724
+test mean IOU: 0.7838507890701294
+test left lung IOU: 0.7486085444688797
+test right lung IOU: 0.7733883708715439
+test trachea IOU: 0.3061178997159004
+test mean precision: 0.8609234541654587
+test left lung precision: 0.9380884021520615
+test right lung precision: 0.883052870631218
+test trachea precision: 0.7616290301084518
+test mean recall: 0.9079842865467072
+test left lung recall: 0.7630958557128906
+test right lung recall: 0.841728538274765
+test trachea recall: 0.33006586879491806
+
+Iteration: 18
+train loss: 0.03484775510927041
+train pixel accuracy: 0.9901185353597005
+train mean dice: 0.7766538023948669
+train left lung dice: 0.7512525995572408
+train right lung dice: 0.7665691296259562
+train trachea dice: 0.3142229790488879
+train mean IOU: 0.739091012875239
+train left lung IOU: 0.7182494918505351
+train right lung IOU: 0.7322202960650126
+train trachea IOU: 0.26888649314641955
+train mean precision: 0.8406446794668834
+train left lung precision: 0.8745457112789154
+train right lung precision: 0.8491776128609975
+train trachea precision: 0.7982106665770213
+train mean recall: 0.8741596778233846
+train left lung recall: 0.7476794679959615
+train right lung recall: 0.771186484893163
+train trachea recall: 0.2890297085046768
+test loss: 0.03773344773799181
+test pixel accuracy: 0.9884018898010254
+test mean dice: 0.7983453720808029
+test left lung dice: 0.7395410537719727
+test right lung dice: 0.8129715472459793
+test trachea dice: 0.2253359518945217
+test mean IOU: 0.7547973841428757
+test left lung IOU: 0.6977602988481522
+test right lung IOU: 0.7699956595897675
+test trachea IOU: 0.17944859340786934
+test mean precision: 0.943704828619957
+test left lung precision: 0.9661678671836853
+test right lung precision: 0.8883104026317596
+test trachea precision: 0.9766360968351364
+test mean recall: 0.8016007393598557
+test left lung recall: 0.7118246257305145
+test right lung recall: 0.790253683924675
+test trachea recall: 0.18397382274270058
+
+Iteration: 19
+train loss: 0.03241786155849695
+train pixel accuracy: 0.9907599131266276
+train mean dice: 0.783411713441213
+train left lung dice: 0.7430844803651174
+train right lung dice: 0.7443255464235942
+train trachea dice: 0.3315750673413277
+train mean IOU: 0.7460801223913829
+train left lung IOU: 0.7099721749623616
+train right lung IOU: 0.71047775944074
+train trachea IOU: 0.2865403895576795
+train mean precision: 0.8345629294713338
+train left lung precision: 0.8472503503163655
+train right lung precision: 0.8419020752112071
+train trachea precision: 0.814536315202713
+train mean recall: 0.8881615539391835
+train left lung recall: 0.7433231095472972
+train right lung recall: 0.74808322985967
+train trachea recall: 0.31266160557667416
+test loss: 0.032578449696302414
+test pixel accuracy: 0.9906501770019531
+test mean dice: 0.7971680611371994
+test left lung dice: 0.7994734793901443
+test right lung dice: 0.8174163401126862
+test trachea dice: 0.33711422979831696
+test mean IOU: 0.7500151246786118
+test left lung IOU: 0.7445337325334549
+test right lung IOU: 0.7719640582799911
+test trachea IOU: 0.29604748636484146
+test mean precision: 0.8767158687114716
+test left lung precision: 0.9846080541610718
+test right lung precision: 0.8659286797046661
+test trachea precision: 0.7796107977628708
+test mean recall: 0.8530997484922409
+test left lung recall: 0.755219355225563
+test right lung recall: 0.834781676530838
+test trachea recall: 0.3130481094121933
+
+Iteration: 20
+train loss: 0.02994474843144417
+train pixel accuracy: 0.9911795934041341
+train mean dice: 0.8127323587735494
+train left lung dice: 0.7617823163668315
+train right lung dice: 0.7647083600362142
+train trachea dice: 0.33983133335908255
+train mean IOU: 0.7789016505082448
+train left lung IOU: 0.7326566934585571
+train right lung IOU: 0.7347005923589071
+train trachea IOU: 0.2974725951751073
+train mean precision: 0.8627710163593292
+train left lung precision: 0.8859713693459829
+train right lung precision: 0.879683917760849
+train trachea precision: 0.8226577003796895
+train mean recall: 0.8964633285999298
+train left lung recall: 0.7595160603523254
+train right lung recall: 0.76813130180041
+train trachea recall: 0.32111759930849076
+test loss: 0.027029164135456085
+test pixel accuracy: 0.9921507835388184
+test mean dice: 0.83183453977108
+test left lung dice: 0.8044145554304123
+test right lung dice: 0.7981370091438293
+test trachea dice: 0.36951449513435364
+test mean IOU: 0.7907220423221588
+test left lung IOU: 0.7633610665798187
+test right lung IOU: 0.7623721659183502
+test trachea IOU: 0.3229953348636627
+test mean precision: 0.8959541618824005
+test left lung precision: 0.8691520988941193
+test right lung precision: 0.9008775353431702
+test trachea precision: 0.9178327172994614
+test mean recall: 0.8786052167415619
+test left lung recall: 0.8094809204339981
+test right lung recall: 0.795219212770462
+test trachea recall: 0.33580297231674194
+
+Iteration: 21
+train loss: 0.02988911053786675
+train pixel accuracy: 0.9913576761881511
+train mean dice: 0.8023109555244445
+train left lung dice: 0.7521726846694946
+train right lung dice: 0.7583609124024709
+train trachea dice: 0.32452425410350166
+train mean IOU: 0.7690530478954315
+train left lung IOU: 0.7234053870042165
+train right lung IOU: 0.7308836221694947
+train trachea IOU: 0.28099509129921596
+train mean precision: 0.855947983264923
+train left lung precision: 0.874465411901474
+train right lung precision: 0.8617950002352397
+train trachea precision: 0.8315834502379099
+train mean recall: 0.8877385437488556
+train left lung recall: 0.7495038112004598
+train right lung recall: 0.7584454079469045
+train trachea recall: 0.30318303803602853
+test loss: 0.03066982701420784
+test pixel accuracy: 0.991051197052002
+test mean dice: 0.8370222896337509
+test left lung dice: 0.7518509030342102
+test right lung dice: 0.7906515896320343
+test trachea dice: 0.24981435015797615
+test mean IOU: 0.7979441434144974
+test left lung IOU: 0.7096906304359436
+test right lung IOU: 0.7473427653312683
+test trachea IOU: 0.21804895251989365
+test mean precision: 0.9157144129276276
+test left lung precision: 0.9940658658742905
+test right lung precision: 0.8215576857328415
+test trachea precision: 0.9315195381641388
+test mean recall: 0.8690637648105621
+test left lung recall: 0.7140628695487976
+test right lung recall: 0.8229644596576691
+test trachea recall: 0.22641393542289734
+
+Iteration: 22
+train loss: 0.030708375262717406
+train pixel accuracy: 0.9912768046061198
+train mean dice: 0.8278908133506775
+train left lung dice: 0.7811520278453827
+train right lung dice: 0.780404104789098
+train trachea dice: 0.34919956475496294
+train mean IOU: 0.7936845203240712
+train left lung IOU: 0.7481563687324524
+train right lung IOU: 0.7499351441860199
+train trachea IOU: 0.31004529893398286
+train mean precision: 0.872566302617391
+train left lung precision: 0.8873399913311004
+train right lung precision: 0.8793502549330393
+train trachea precision: 0.8510086019833882
+train mean recall: 0.9038197318712871
+train left lung recall: 0.7815874099731446
+train right lung recall: 0.7835551420847575
+train trachea recall: 0.3348582709829013
+test loss: 0.029148303903639317
+test pixel accuracy: 0.9911384582519531
+test mean dice: 0.8260041326284409
+test left lung dice: 0.8071691691875458
+test right lung dice: 0.7723576724529266
+test trachea dice: 0.382860466837883
+test mean IOU: 0.7818425446748734
+test left lung IOU: 0.7607706636190414
+test right lung IOU: 0.7319662719964981
+test trachea IOU: 0.337165504693985
+test mean precision: 0.9174462258815765
+test left lung precision: 0.9292314499616623
+test right lung precision: 0.8895660042762756
+test trachea precision: 0.9335411787033081
+test mean recall: 0.8488225489854813
+test left lung recall: 0.7791076302528381
+test right lung recall: 0.7712783515453339
+test trachea recall: 0.3554566726088524
+
+Iteration: 23
+train loss: 0.02407544441521168
+train pixel accuracy: 0.99302978515625
+train mean dice: 0.8228145877520243
+train left lung dice: 0.7581118742624918
+train right lung dice: 0.7672849675019582
+train trachea dice: 0.33263018131256106
+train mean IOU: 0.7906849821408589
+train left lung IOU: 0.730051855246226
+train right lung IOU: 0.7380639692147573
+train trachea IOU: 0.29352237582206725
+train mean precision: 0.870212568839391
+train left lung precision: 0.8805262645085653
+train right lung precision: 0.8798105915387472
+train trachea precision: 0.8503007749716441
+train mean recall: 0.8993882517019908
+train left lung recall: 0.7581677416960398
+train right lung recall: 0.7714578847090403
+train trachea recall: 0.3216640740633011
+test loss: 0.031246934551745653
+test pixel accuracy: 0.9913883209228516
+test mean dice: 0.8622190356254578
+test left lung dice: 0.7514127343893051
+test right lung dice: 0.8063808530569077
+test trachea dice: 0.31011349335312843
+test mean IOU: 0.8225103169679642
+test left lung IOU: 0.7059099525213242
+test right lung IOU: 0.7707538902759552
+test trachea IOU: 0.2721170112490654
+test mean precision: 0.9524043649435043
+test left lung precision: 0.9848207384347916
+test right lung precision: 0.9154760390520096
+test trachea precision: 0.9569163471460342
+test mean recall: 0.8572470545768738
+test left lung recall: 0.7113341987133026
+test right lung recall: 0.8187560737133026
+test trachea recall: 0.2838383838534355
+
+Iteration: 24
+train loss: 0.03075990378856659
+train pixel accuracy: 0.9912073135375976
+train mean dice: 0.8167101979255676
+train left lung dice: 0.7540403167406718
+train right lung dice: 0.7490782419840495
+train trachea dice: 0.336595319211483
+train mean IOU: 0.7841072718302409
+train left lung IOU: 0.7236611684163411
+train right lung IOU: 0.720887158314387
+train trachea IOU: 0.2973567376534144
+train mean precision: 0.865138445297877
+train left lung precision: 0.8838943163553874
+train right lung precision: 0.8935131231943766
+train trachea precision: 0.8180078566074371
+train mean recall: 0.9028485715389252
+train left lung recall: 0.7511610865592957
+train right lung recall: 0.7497604469458262
+train trachea recall: 0.3253324454029401
+test loss: 0.022559729870408773
+test pixel accuracy: 0.993471622467041
+test mean dice: 0.8529224097728729
+test left lung dice: 0.8077158182859421
+test right lung dice: 0.7957040816545486
+test trachea dice: 0.43190983682870865
+test mean IOU: 0.8140237778425217
+test left lung IOU: 0.7730402499437332
+test right lung IOU: 0.7666961699724197
+test trachea IOU: 0.37889736145734787
+test mean precision: 0.8927010595798492
+test left lung precision: 0.9215204566717148
+test right lung precision: 0.8560516983270645
+test trachea precision: 0.9005309790372849
+test mean recall: 0.912209689617157
+test left lung recall: 0.8048852533102036
+test right lung recall: 0.8066237419843674
+test trachea recall: 0.39855746924877167
+
+Iteration: 25
+train loss: 0.02627504173045357
+train pixel accuracy: 0.9920888264973958
+train mean dice: 0.8220660110314687
+train left lung dice: 0.750510162115097
+train right lung dice: 0.755518627166748
+train trachea dice: 0.338294181227684
+train mean IOU: 0.7911909341812133
+train left lung IOU: 0.7239528715610504
+train right lung IOU: 0.7272441824277242
+train trachea IOU: 0.3005006780227025
+train mean precision: 0.8724903305371602
+train left lung precision: 0.8844427049160004
+train right lung precision: 0.8754669348398845
+train trachea precision: 0.8575613001982371
+train mean recall: 0.9014902750651042
+train left lung recall: 0.7518507599830627
+train right lung recall: 0.7568784892559052
+train trachea recall: 0.3176165173451106
+test loss: 0.025385901797562838
+test pixel accuracy: 0.9923014640808105
+test mean dice: 0.8217027634382248
+test left lung dice: 0.8283697813749313
+test right lung dice: 0.7774781137704849
+test trachea dice: 0.34363536536693573
+test mean IOU: 0.7824888378381729
+test left lung IOU: 0.7854239344596863
+test right lung IOU: 0.7447533905506134
+test trachea IOU: 0.30166399478912354
+test mean precision: 0.9186264723539352
+test left lung precision: 0.9022893458604813
+test right lung precision: 0.8961925506591797
+test trachea precision: 0.9573974758386612
+test mean recall: 0.8531955480575562
+test left lung recall: 0.8263707011938095
+test right lung recall: 0.7819670289754868
+test trachea recall: 0.3262488543987274
+
+Iteration: 26
+train loss: 0.026351010023305813
+train pixel accuracy: 0.9924158096313477
+train mean dice: 0.8289021134376526
+train left lung dice: 0.7676645477612813
+train right lung dice: 0.764630921681722
+train trachea dice: 0.3617024858792623
+train mean IOU: 0.7968327701091766
+train left lung IOU: 0.7401828467845917
+train right lung IOU: 0.7391030152638753
+train trachea IOU: 0.31850405981143315
+train mean precision: 0.8751425643761953
+train left lung precision: 0.8986190458138784
+train right lung precision: 0.8822604636351268
+train trachea precision: 0.8445481181144714
+train mean recall: 0.9050599535306295
+train left lung recall: 0.7663562973340352
+train right lung recall: 0.7684739510218302
+train trachea recall: 0.3490995521346728
+test loss: 0.02558447839692235
+test pixel accuracy: 0.992762565612793
+test mean dice: 0.8344862312078476
+test left lung dice: 0.7618499398231506
+test right lung dice: 0.7754404544830322
+test trachea dice: 0.4036681056022644
+test mean IOU: 0.7984625995159149
+test left lung IOU: 0.7275300025939941
+test right lung IOU: 0.7448779046535492
+test trachea IOU: 0.36047983914613724
+test mean precision: 0.9082624465227127
+test left lung precision: 0.9850260466337204
+test right lung precision: 0.8679257929325104
+test trachea precision: 0.871835470199585
+test mean recall: 0.8818164318799973
+test left lung recall: 0.7333157658576965
+test right lung recall: 0.7772740572690964
+test trachea recall: 0.37704699486494064
+
+Iteration: 27
+train loss: 0.029735772311687468
+train pixel accuracy: 0.9917519887288412
+train mean dice: 0.8344481805960338
+train left lung dice: 0.7675727049509684
+train right lung dice: 0.7746817191441854
+train trachea dice: 0.3725483904282252
+train mean IOU: 0.8025245428085327
+train left lung IOU: 0.7397788226604461
+train right lung IOU: 0.7487738887468974
+train trachea IOU: 0.33047921607891717
+train mean precision: 0.8818170269330342
+train left lung precision: 0.9015730738639831
+train right lung precision: 0.8848120590051015
+train trachea precision: 0.8590658783912659
+train mean recall: 0.9075973908106486
+train left lung recall: 0.7671736101309459
+train right lung recall: 0.7769609272480011
+train trachea recall: 0.35678256501754124
+test loss: 0.033397117629647255
+test pixel accuracy: 0.9888730049133301
+test mean dice: 0.7894515991210938
+test left lung dice: 0.8050529956817627
+test right lung dice: 0.7724738419055939
+test trachea dice: 0.431453101336956
+test mean IOU: 0.74017034471035
+test left lung IOU: 0.7581176459789276
+test right lung IOU: 0.7287713885307312
+test trachea IOU: 0.37424690276384354
+test mean precision: 0.8123092353343964
+test left lung precision: 0.8759219795465469
+test right lung precision: 0.7855081558227539
+test trachea precision: 0.7754974812269211
+test mean recall: 0.9047797173261642
+test left lung recall: 0.8162562251091003
+test right lung recall: 0.7958999127149582
+test trachea recall: 0.44593293219804764
+
+Iteration: 28
+train loss: 0.027556593343615533
+train pixel accuracy: 0.9919483184814453
+train mean dice: 0.8293095966180165
+train left lung dice: 0.7431424657503763
+train right lung dice: 0.7485832234223684
+train trachea dice: 0.35245303412278495
+train mean IOU: 0.7976719518502553
+train left lung IOU: 0.7154195050398509
+train right lung IOU: 0.7215622941652934
+train trachea IOU: 0.31228398432334264
+train mean precision: 0.869813593228658
+train left lung precision: 0.885875670115153
+train right lung precision: 0.8680120786031087
+train trachea precision: 0.8555529693762461
+train mean recall: 0.9115757803122203
+train left lung recall: 0.7413578152656555
+train right lung recall: 0.7479418973128001
+train trachea recall: 0.33709421902894976
+test loss: 0.027025400660932064
+test pixel accuracy: 0.9930992126464844
+test mean dice: 0.881160318851471
+test left lung dice: 0.7959558814764023
+test right lung dice: 0.824162632226944
+test trachea dice: 0.3358624577522278
+test mean IOU: 0.8478284925222397
+test left lung IOU: 0.7582843899726868
+test right lung IOU: 0.7946385443210602
+test trachea IOU: 0.3030625209212303
+test mean precision: 0.9551173448562622
+test left lung precision: 0.9497340470552444
+test right lung precision: 0.980055183172226
+test trachea precision: 0.9355627000331879
+test mean recall: 0.8793014883995056
+test left lung recall: 0.7859877049922943
+test right lung recall: 0.8123223781585693
+test trachea recall: 0.32084430754184723
+
+Iteration: 29
+train loss: 0.02214283139134447
+train pixel accuracy: 0.9930608749389649
+train mean dice: 0.8564256350199382
+train left lung dice: 0.7779815177122752
+train right lung dice: 0.7852263073126475
+train trachea dice: 0.3716940095027288
+train mean IOU: 0.8271572868029277
+train left lung IOU: 0.7514906187852224
+train right lung IOU: 0.7612731913725536
+train trachea IOU: 0.33433300505081814
+train mean precision: 0.8975640118122101
+train left lung precision: 0.9054905354976654
+train right lung precision: 0.9112259785334269
+train trachea precision: 0.8759754459063213
+train mean recall: 0.9121803263823192
+train left lung recall: 0.7763822237650554
+train right lung recall: 0.7873583873112996
+train trachea recall: 0.3634252910812696
+test loss: 0.018428112380206585
+test pixel accuracy: 0.9942312240600586
+test mean dice: 0.8444241136312485
+test left lung dice: 0.8257574588060379
+test right lung dice: 0.7988785356283188
+test trachea dice: 0.416448712348938
+test mean IOU: 0.8098383545875549
+test left lung IOU: 0.7951843440532684
+test right lung IOU: 0.7724634408950806
+test trachea IOU: 0.3696797415614128
+test mean precision: 0.8809287548065186
+test left lung precision: 0.9156886786222458
+test right lung precision: 0.7970096915960312
+test trachea precision: 0.9300878643989563
+test mean recall: 0.91717828810215
+test left lung recall: 0.821761354804039
+test right lung recall: 0.8333232253789902
+test trachea recall: 0.38551266491413116
+
+Iteration: 30
+train loss: 0.021780865173786877
+train pixel accuracy: 0.9932901382446289
+train mean dice: 0.8534414350986481
+train left lung dice: 0.7797578354676564
+train right lung dice: 0.7772121886412303
+train trachea dice: 0.3752292484045029
+train mean IOU: 0.8241920292377471
+train left lung IOU: 0.754023285706838
+train right lung IOU: 0.7529895623524984
+train trachea IOU: 0.33743815720081327
+train mean precision: 0.8902254184087117
+train left lung precision: 0.896453990538915
+train right lung precision: 0.8996203442414602
+train trachea precision: 0.8746018707752228
+train mean recall: 0.9172534584999085
+train left lung recall: 0.7788801113764445
+train right lung recall: 0.7799343585968017
+train trachea recall: 0.3648208315173785
+test loss: 0.019919022917747498
+test pixel accuracy: 0.9938764572143555
+test mean dice: 0.8611038476228714
+test left lung dice: 0.7783957123756409
+test right lung dice: 0.7534938603639603
+test trachea dice: 0.4264218807220459
+test mean IOU: 0.8225394934415817
+test left lung IOU: 0.7386139780282974
+test right lung IOU: 0.721976563334465
+test trachea IOU: 0.38202790915966034
+test mean precision: 0.9074891209602356
+test left lung precision: 0.9704664796590805
+test right lung precision: 0.8959469646215439
+test trachea precision: 0.8560539186000824
+test mean recall: 0.8985433280467987
+test left lung recall: 0.7576706260442734
+test right lung recall: 0.7376068085432053
+test trachea recall: 0.4112899973988533
+
+Iteration: 31
+train loss: 0.023429720538357894
+train pixel accuracy: 0.9926864624023437
+train mean dice: 0.8474100867907206
+train left lung dice: 0.7660053471724192
+train right lung dice: 0.755569851398468
+train trachea dice: 0.35086334149042764
+train mean IOU: 0.8179332097371419
+train left lung IOU: 0.7389892796675365
+train right lung IOU: 0.7302947382132212
+train trachea IOU: 0.3147238840659459
+train mean precision: 0.8880104581514995
+train left lung precision: 0.9143601636091868
+train right lung precision: 0.8967697997887929
+train trachea precision: 0.8529013593991598
+train mean recall: 0.9147765616575877
+train left lung recall: 0.7648978432019552
+train right lung recall: 0.7573127627372742
+train trachea recall: 0.3408690129717191
+test loss: 0.0309718931093812
+test pixel accuracy: 0.9908866882324219
+test mean dice: 0.8757340312004089
+test left lung dice: 0.8016624450683594
+test right lung dice: 0.7595838606357574
+test trachea dice: 0.4253307431936264
+test mean IOU: 0.8402676582336426
+test left lung IOU: 0.7644726783037186
+test right lung IOU: 0.724434494972229
+test trachea IOU: 0.3912707455456257
+test mean precision: 0.9484459161758423
+test left lung precision: 0.9439709186553955
+test right lung precision: 0.9927081912755966
+test trachea precision: 0.9086585342884064
+test mean recall: 0.8819826692342758
+test left lung recall: 0.793593555688858
+test right lung recall: 0.7304734289646149
+test trachea recall: 0.41875600069761276
+
+Iteration: 32
+train loss: 0.023742112641533215
+train pixel accuracy: 0.9924418767293294
+train mean dice: 0.8510249376296997
+train left lung dice: 0.7817176183064779
+train right lung dice: 0.7825949172178904
+train trachea dice: 0.3512622038523356
+train mean IOU: 0.8218142668406169
+train left lung IOU: 0.7573150555292766
+train right lung IOU: 0.75739453236262
+train trachea IOU: 0.31323316047588984
+train mean precision: 0.8911722381909688
+train left lung precision: 0.9130159656206767
+train right lung precision: 0.8958162109057108
+train trachea precision: 0.8646844804286957
+train mean recall: 0.9153088370958964
+train left lung recall: 0.7825060625871022
+train right lung recall: 0.7882386088371277
+train trachea recall: 0.3408067896962166
+test loss: 0.019239421235397458
+test pixel accuracy: 0.9943022727966309
+test mean dice: 0.8673462122678757
+test left lung dice: 0.8401878923177719
+test right lung dice: 0.829971432685852
+test trachea dice: 0.3850041553378105
+test mean IOU: 0.8313013762235641
+test left lung IOU: 0.8041275590658188
+test right lung IOU: 0.7993142604827881
+test trachea IOU: 0.34358739107847214
+test mean precision: 0.9146926999092102
+test left lung precision: 0.9540202766656876
+test right lung precision: 0.8721400499343872
+test trachea precision: 0.9179175943136215
+test mean recall: 0.9099701195955276
+test left lung recall: 0.8222901523113251
+test right lung recall: 0.8516347408294678
+test trachea recall: 0.3606729209423065
+
+Iteration: 33
+train loss: 0.021381360975404582
+train pixel accuracy: 0.9935206095377604
+train mean dice: 0.8548408806324005
+train left lung dice: 0.7681307931741078
+train right lung dice: 0.7597261945406596
+train trachea dice: 0.37937396615743635
+train mean IOU: 0.8239025036493938
+train left lung IOU: 0.7423748314380646
+train right lung IOU: 0.7345955908298493
+train trachea IOU: 0.33744537830352783
+train mean precision: 0.8969892084598541
+train left lung precision: 0.9083410362402599
+train right lung precision: 0.8999104162057241
+train trachea precision: 0.8827161014080047
+train mean recall: 0.9125386794408162
+train left lung recall: 0.7693381190299988
+train right lung recall: 0.7638894061247508
+train trachea recall: 0.3637634843587875
+test loss: 0.02118901815265417
+test pixel accuracy: 0.9942460060119629
+test mean dice: 0.8541925251483917
+test left lung dice: 0.7639264911413193
+test right lung dice: 0.7585287392139435
+test trachea dice: 0.4151221290230751
+test mean IOU: 0.8197032064199448
+test left lung IOU: 0.7319271564483643
+test right lung IOU: 0.7281812280416489
+test trachea IOU: 0.3740011155605316
+test mean precision: 0.9002548009157181
+test left lung precision: 0.97390516102314
+test right lung precision: 0.9037630558013916
+test trachea precision: 0.8230961263179779
+test mean recall: 0.9102596640586853
+test left lung recall: 0.740942969918251
+test right lung recall: 0.7675172537565231
+test trachea recall: 0.42544372379779816
+
+Iteration: 34
+train loss: 0.019507056940346955
+train pixel accuracy: 0.9939205805460612
+train mean dice: 0.8686094144980113
+train left lung dice: 0.7832555373509725
+train right lung dice: 0.7837882022062937
+train trachea dice: 0.3856594443321228
+train mean IOU: 0.8399875521659851
+train left lung IOU: 0.7587478399276734
+train right lung IOU: 0.7605284372965495
+train trachea IOU: 0.34756131619215014
+train mean precision: 0.9016472399234772
+train left lung precision: 0.9205647091070811
+train right lung precision: 0.9172672291596731
+train trachea precision: 0.8671097218990326
+train mean recall: 0.9249827762444814
+train left lung recall: 0.7833263576030731
+train right lung recall: 0.78564439813296
+train trachea recall: 0.37576919893423716
+test loss: 0.023648920003324747
+test pixel accuracy: 0.9922189712524414
+test mean dice: 0.8688226044178009
+test left lung dice: 0.8715849220752716
+test right lung dice: 0.8176338523626328
+test trachea dice: 0.39381149411201477
+test mean IOU: 0.8308170437812805
+test left lung IOU: 0.8306449353694916
+test right lung IOU: 0.7867617160081863
+test trachea IOU: 0.3516070246696472
+test mean precision: 0.9242591112852097
+test left lung precision: 0.9289600253105164
+test right lung precision: 0.9587897658348083
+test trachea precision: 0.8850275725126266
+test mean recall: 0.8931910246610641
+test left lung recall: 0.8598102033138275
+test right lung recall: 0.8002759516239166
+test trachea recall: 0.3866744339466095
+
+Iteration: 35
+train loss: 0.019032732180009285
+train pixel accuracy: 0.993792470296224
+train mean dice: 0.8640452762444814
+train left lung dice: 0.762773185968399
+train right lung dice: 0.7739616572856903
+train trachea dice: 0.377275916437308
+train mean IOU: 0.8363284786542257
+train left lung IOU: 0.7401173730691274
+train right lung IOU: 0.7505368669827779
+train trachea IOU: 0.34020613729953764
+train mean precision: 0.8967566629250844
+train left lung precision: 0.9031521876653036
+train right lung precision: 0.9115133225917816
+train trachea precision: 0.8756044308344523
+train mean recall: 0.9246089478333791
+train left lung recall: 0.7641511976718902
+train right lung recall: 0.776412840684255
+train trachea recall: 0.36659608433643975
+test loss: 0.018826019950211048
+test pixel accuracy: 0.9942588806152344
+test mean dice: 0.8994989544153214
+test left lung dice: 0.8119098842144012
+test right lung dice: 0.7713339328765869
+test trachea dice: 0.3886904641985893
+test mean IOU: 0.8655743598937988
+test left lung IOU: 0.7763086259365082
+test right lung IOU: 0.7475669384002686
+test trachea IOU: 0.34628499299287796
+test mean precision: 0.9730570316314697
+test left lung precision: 0.9855098128318787
+test right lung precision: 0.9600434899330139
+test trachea precision: 0.9736177027225494
+test mean recall: 0.8855189383029938
+test left lung recall: 0.7883384376764297
+test right lung recall: 0.7655674517154694
+test trachea recall: 0.3526508957147598
+
+Iteration: 36
+train loss: 0.01904612760990858
+train pixel accuracy: 0.9944002787272136
+train mean dice: 0.8727092544237772
+train left lung dice: 0.7758486568927765
+train right lung dice: 0.7812099357446035
+train trachea dice: 0.3589857369661331
+train mean IOU: 0.8455112556616465
+train left lung IOU: 0.7533736606438954
+train right lung IOU: 0.7590569019317627
+train trachea IOU: 0.3220198179284732
+train mean precision: 0.9116538683573405
+train left lung precision: 0.9277849098046621
+train right lung precision: 0.9265546162923177
+train trachea precision: 0.8806220094362894
+train mean recall: 0.9232163071632385
+train left lung recall: 0.775655859708786
+train right lung recall: 0.781754712263743
+train trachea recall: 0.3497383202115695
+test loss: 0.02952293073758483
+test pixel accuracy: 0.9915041923522949
+test mean dice: 0.8450723141431808
+test left lung dice: 0.7600702792406082
+test right lung dice: 0.753651037812233
+test trachea dice: 0.41993311047554016
+test mean IOU: 0.8094273954629898
+test left lung IOU: 0.724833145737648
+test right lung IOU: 0.7232924550771713
+test trachea IOU: 0.37859392911195755
+test mean precision: 0.9077307730913162
+test left lung precision: 0.9455864131450653
+test right lung precision: 0.8786268681287766
+test trachea precision: 0.8989790380001068
+test mean recall: 0.8933454155921936
+test left lung recall: 0.7442721873521805
+test right lung recall: 0.7467886805534363
+test trachea recall: 0.3999127522110939
+
+Iteration: 37
+train loss: 0.024049185154338678
+train pixel accuracy: 0.9926209131876628
+train mean dice: 0.8596876939137776
+train left lung dice: 0.7835354069868724
+train right lung dice: 0.7728801667690277
+train trachea dice: 0.37056412249803544
+train mean IOU: 0.8310146927833557
+train left lung IOU: 0.7578620473543803
+train right lung IOU: 0.7486964881420135
+train trachea IOU: 0.3344021146496137
+train mean precision: 0.8924213290214539
+train left lung precision: 0.8915891547997793
+train right lung precision: 0.8917499879995981
+train trachea precision: 0.8939248224099478
+train mean recall: 0.9247094233830769
+train left lung recall: 0.786636358499527
+train right lung recall: 0.7802227179209391
+train trachea recall: 0.36143580873807274
+test loss: 0.03429598966613412
+test pixel accuracy: 0.9886460304260254
+test mean dice: 0.8760241270065308
+test left lung dice: 0.8425332009792328
+test right lung dice: 0.7790050506591797
+test trachea dice: 0.40497154742479324
+test mean IOU: 0.8319491893053055
+test left lung IOU: 0.7991676926612854
+test right lung IOU: 0.7338626086711884
+test trachea IOU: 0.3612547293305397
+test mean precision: 0.9223756343126297
+test left lung precision: 0.9345438480377197
+test right lung precision: 0.9045684039592743
+test trachea precision: 0.9280145615339279
+test mean recall: 0.8941788226366043
+test left lung recall: 0.8555170148611069
+test right lung recall: 0.7611935436725616
+test trachea recall: 0.3861384093761444
+
+Iteration: 38
+train loss: 0.02532735327258706
+train pixel accuracy: 0.9923093795776368
+train mean dice: 0.8433939297993978
+train left lung dice: 0.7528387586275737
+train right lung dice: 0.7607401092847188
+train trachea dice: 0.38951952308416365
+train mean IOU: 0.8128949403762817
+train left lung IOU: 0.7279490609963735
+train right lung IOU: 0.7360916356245677
+train trachea IOU: 0.34756074051062263
+train mean precision: 0.8842429498831431
+train left lung precision: 0.8838456948598226
+train right lung precision: 0.8907522102197011
+train trachea precision: 0.8781308710575104
+train mean recall: 0.9089386761188507
+train left lung recall: 0.7532138367493947
+train right lung recall: 0.7626834789911906
+train trachea recall: 0.3765436818202337
+test loss: 0.030751021578907967
+test pixel accuracy: 0.991248607635498
+test mean dice: 0.8673958331346512
+test left lung dice: 0.7858084440231323
+test right lung dice: 0.7835121601819992
+test trachea dice: 0.41567932814359665
+test mean IOU: 0.8258686363697052
+test left lung IOU: 0.745238721370697
+test right lung IOU: 0.7454474419355392
+test trachea IOU: 0.36973217129707336
+test mean precision: 0.9237830936908722
+test left lung precision: 0.9767263531684875
+test right lung precision: 0.8810722380876541
+test trachea precision: 0.9135506451129913
+test mean recall: 0.8849160224199295
+test left lung recall: 0.7544667720794678
+test right lung recall: 0.8032785803079605
+test trachea recall: 0.40169013291597366
+
+Iteration: 39
+train loss: 0.02341344887390733
+train pixel accuracy: 0.9923850377400716
+train mean dice: 0.8477358897527059
+train left lung dice: 0.7838772654533386
+train right lung dice: 0.7800898730754853
+train trachea dice: 0.37611547062794365
+train mean IOU: 0.8180336058139801
+train left lung IOU: 0.7584096391995748
+train right lung IOU: 0.755570658047994
+train trachea IOU: 0.3369954625765483
+train mean precision: 0.8824306309223175
+train left lung precision: 0.9013530254364014
+train right lung precision: 0.882121600707372
+train trachea precision: 0.8638172229131063
+train mean recall: 0.9213383952776592
+train left lung recall: 0.7871094842751821
+train right lung recall: 0.7837835033734639
+train trachea recall: 0.3649971321225166
+test loss: 0.02717796666547656
+test pixel accuracy: 0.9907441139221191
+test mean dice: 0.8677046597003937
+test left lung dice: 0.8162461072206497
+test right lung dice: 0.7768032848834991
+test trachea dice: 0.40850213170051575
+test mean IOU: 0.8268603980541229
+test left lung IOU: 0.7743352800607681
+test right lung IOU: 0.7386053651571274
+test trachea IOU: 0.36607808619737625
+test mean precision: 0.948874831199646
+test left lung precision: 0.8955821394920349
+test right lung precision: 0.9805647134780884
+test trachea precision: 0.9704775661230087
+test mean recall: 0.8712085634469986
+test left lung recall: 0.8399156183004379
+test right lung recall: 0.7483750283718109
+test trachea recall: 0.3768974021077156
+
+Iteration: 40
+train loss: 0.02647816672300299
+train pixel accuracy: 0.9919543584187825
+train mean dice: 0.8505969603856405
+train left lung dice: 0.7704348643620809
+train right lung dice: 0.761488260825475
+train trachea dice: 0.3532010555267334
+train mean IOU: 0.8197766800721487
+train left lung IOU: 0.744076689084371
+train right lung IOU: 0.7343433956305186
+train trachea IOU: 0.31424322972695035
+train mean precision: 0.891767434279124
+train left lung precision: 0.8977676709493001
+train right lung precision: 0.8908511122067769
+train trachea precision: 0.8866834620634715
+train mean recall: 0.9124809761842092
+train left lung recall: 0.7737737675507863
+train right lung recall: 0.767807141939799
+train trachea recall: 0.33752860079209007
+test loss: 0.027003417257219553
+test pixel accuracy: 0.9923110008239746
+test mean dice: 0.8703487664461136
+test left lung dice: 0.7541827708482742
+test right lung dice: 0.8064355552196503
+test trachea dice: 0.41761548072099686
+test mean IOU: 0.8359205275774002
+test left lung IOU: 0.7227145731449127
+test right lung IOU: 0.7742222547531128
+test trachea IOU: 0.37801212817430496
+test mean precision: 0.9133183509111404
+test left lung precision: 0.9802498519420624
+test right lung precision: 0.8670330941677094
+test trachea precision: 0.8926720172166824
+test mean recall: 0.9023744463920593
+test left lung recall: 0.7319158762693405
+test right lung recall: 0.8228448778390884
+test trachea recall: 0.40236250311136246
+
+Iteration: 41
+train loss: 0.02399860623603066
+train pixel accuracy: 0.9924102783203125
+train mean dice: 0.8556166609128316
+train left lung dice: 0.7881810943285624
+train right lung dice: 0.7917503277460735
+train trachea dice: 0.39733518461386363
+train mean IOU: 0.8241607407728831
+train left lung IOU: 0.7614815791447958
+train right lung IOU: 0.764750615755717
+train trachea IOU: 0.35666662951310474
+train mean precision: 0.8894949336846669
+train left lung precision: 0.9129460533459981
+train right lung precision: 0.8974092185497284
+train trachea precision: 0.858129487435023
+train mean recall: 0.9185325741767884
+train left lung recall: 0.787315692504247
+train right lung recall: 0.7928174555301666
+train trachea recall: 0.39213121036688486
+test loss: 0.021391344256699085
+test pixel accuracy: 0.9931859970092773
+test mean dice: 0.8784781098365784
+test left lung dice: 0.853153333067894
+test right lung dice: 0.8198209255933762
+test trachea dice: 0.3843349739909172
+test mean IOU: 0.842403307557106
+test left lung IOU: 0.8179168552160263
+test right lung IOU: 0.7906753718852997
+test trachea IOU: 0.3404925800859928
+test mean precision: 0.9357027411460876
+test left lung precision: 0.963586837053299
+test right lung precision: 0.9107763320207596
+test trachea precision: 0.9327449798583984
+test mean recall: 0.890558272600174
+test left lung recall: 0.8419230133295059
+test right lung recall: 0.821436807513237
+test trachea recall: 0.35206496343016624
+
+Iteration: 42
+train loss: 0.023621738236397506
+train pixel accuracy: 0.9925402959187826
+train mean dice: 0.8656826814015707
+train left lung dice: 0.7642181932926178
+train right lung dice: 0.7677214821179708
+train trachea dice: 0.3723999937375387
+train mean IOU: 0.8370518426100413
+train left lung IOU: 0.7390382210413615
+train right lung IOU: 0.7423645774523417
+train trachea IOU: 0.33704431901375453
+train mean precision: 0.9020077526569367
+train left lung precision: 0.9114657819271088
+train right lung precision: 0.9104989190896352
+train trachea precision: 0.8840585311253866
+train mean recall: 0.9214716374874115
+train left lung recall: 0.7680986404418946
+train right lung recall: 0.7710782289505005
+train trachea recall: 0.36065463920434315
+test loss: 0.10476912371814251
+test pixel accuracy: 0.9672741889953613
+test mean dice: 0.7863512188196182
+test left lung dice: 0.6315730884671211
+test right lung dice: 0.7247957438230515
+test trachea dice: 0.3933097943663597
+test mean IOU: 0.7180797904729843
+test left lung IOU: 0.5544358342885971
+test right lung IOU: 0.6383579820394516
+test trachea IOU: 0.3520704284310341
+test mean precision: 0.9301808476448059
+test left lung precision: 0.9983914196491241
+test right lung precision: 0.9304084032773972
+test trachea precision: 0.861742690205574
+test mean recall: 0.7727223783731461
+test left lung recall: 0.555226281285286
+test right lung recall: 0.6793021559715271
+test trachea recall: 0.41176366806030273
+
+Iteration: 43
+train loss: 0.021960645137975614
+train pixel accuracy: 0.9931542078653971
+train mean dice: 0.8721580882867177
+train left lung dice: 0.7843951205412547
+train right lung dice: 0.7956143836180369
+train trachea dice: 0.3947980691989263
+train mean IOU: 0.8436896443367005
+train left lung IOU: 0.7595171411832173
+train right lung IOU: 0.7726639032363891
+train trachea IOU: 0.3572211394707362
+train mean precision: 0.9068704028924306
+train left lung precision: 0.9131003399689992
+train right lung precision: 0.9091381788253784
+train trachea precision: 0.898372620344162
+train mean recall: 0.9215915540854136
+train left lung recall: 0.7859715938568115
+train right lung recall: 0.7989646275838216
+train trachea recall: 0.3860883802175522
+test loss: 0.016442289808765054
+test pixel accuracy: 0.9944443702697754
+test mean dice: 0.8795786499977112
+test left lung dice: 0.7705750614404678
+test right lung dice: 0.7387651652097702
+test trachea dice: 0.4184582680463791
+test mean IOU: 0.8479633927345276
+test left lung IOU: 0.7374366670846939
+test right lung IOU: 0.7134528160095215
+test trachea IOU: 0.3820630609989166
+test mean precision: 0.8997217416763306
+test left lung precision: 0.9041192531585693
+test right lung precision: 0.8891896307468414
+test trachea precision: 0.9058562219142914
+test mean recall: 0.934342235326767
+test left lung recall: 0.7828570753335953
+test right lung recall: 0.735405907034874
+test trachea recall: 0.4175761938095093
+
+Iteration: 44
+train loss: 0.021311836193005244
+train pixel accuracy: 0.993586540222168
+train mean dice: 0.8688330829143525
+train left lung dice: 0.7738696495691936
+train right lung dice: 0.7656343221664429
+train trachea dice: 0.3722035666306814
+train mean IOU: 0.8417404651641845
+train left lung IOU: 0.7505281786123912
+train right lung IOU: 0.7430805246035258
+train trachea IOU: 0.33682094017664593
+train mean precision: 0.9035527169704437
+train left lung precision: 0.9124501327673594
+train right lung precision: 0.9152110298474629
+train trachea precision: 0.8829969127972921
+train mean recall: 0.9212794721126556
+train left lung recall: 0.7748800436655681
+train right lung recall: 0.7670334994792938
+train trachea recall: 0.36150814294815065
+test loss: 0.01904624653980136
+test pixel accuracy: 0.9942679405212402
+test mean dice: 0.841900497674942
+test left lung dice: 0.8294119387865067
+test right lung dice: 0.8046690225601196
+test trachea dice: 0.36818303912878036
+test mean IOU: 0.8091812580823898
+test left lung IOU: 0.7948695421218872
+test right lung IOU: 0.7735127657651901
+test trachea IOU: 0.3357238918542862
+test mean precision: 0.8745623826980591
+test left lung precision: 0.8499912470579147
+test right lung precision: 0.8042836040258408
+test trachea precision: 0.9694122225046158
+test mean recall: 0.9216676503419876
+test left lung recall: 0.8476611375808716
+test right lung recall: 0.8205567300319672
+test trachea recall: 0.3467850089073181
+
+Iteration: 45
+train loss: 0.016343480286498863
+train pixel accuracy: 0.9944603602091472
+train mean dice: 0.8772587358951569
+train left lung dice: 0.7891899943351746
+train right lung dice: 0.7992731432120005
+train trachea dice: 0.39227131654818853
+train mean IOU: 0.8504394193490347
+train left lung IOU: 0.7663541615009308
+train right lung IOU: 0.7787508587042491
+train trachea IOU: 0.3551714877287547
+train mean precision: 0.9125147978464763
+train left lung precision: 0.921566249926885
+train right lung precision: 0.923382023970286
+train trachea precision: 0.892596044143041
+train mean recall: 0.9265419006347656
+train left lung recall: 0.791306714216868
+train right lung recall: 0.799581640958786
+train trachea recall: 0.3835289935270945
+test loss: 0.017523396061733365
+test pixel accuracy: 0.994532585144043
+test mean dice: 0.8730125427246094
+test left lung dice: 0.8254412710666656
+test right lung dice: 0.7672395557165146
+test trachea dice: 0.3857317715883255
+test mean IOU: 0.8381818383932114
+test left lung IOU: 0.791077733039856
+test right lung IOU: 0.7448504269123077
+test trachea IOU: 0.3379923030734062
+test mean precision: 0.9392476826906204
+test left lung precision: 0.9498670101165771
+test right lung precision: 0.9692745357751846
+test trachea precision: 0.8986014574766159
+test mean recall: 0.8830944001674652
+test left lung recall: 0.8090750575065613
+test right lung recall: 0.7581947594881058
+test trachea recall: 0.3867008090019226
+
+Iteration: 46
+train loss: 0.02177026163165768
+train pixel accuracy: 0.9930977503458659
+train mean dice: 0.8782663504282634
+train left lung dice: 0.7644650916258494
+train right lung dice: 0.7783399681250255
+train trachea dice: 0.3909522851308187
+train mean IOU: 0.8503800749778747
+train left lung IOU: 0.7399250984191894
+train right lung IOU: 0.7538162251313527
+train trachea IOU: 0.35635716915130616
+train mean precision: 0.9092689633369446
+train left lung precision: 0.9183208465576171
+train right lung precision: 0.9232378800710043
+train trachea precision: 0.8862481077512105
+train mean recall: 0.9257484396298726
+train left lung recall: 0.7649279356002807
+train right lung recall: 0.7800469319025676
+train trachea recall: 0.38331205199162166
+test loss: 0.02731936052441597
+test pixel accuracy: 0.9917540550231934
+test mean dice: 0.875236764550209
+test left lung dice: 0.7506966590881348
+test right lung dice: 0.7693829089403152
+test trachea dice: 0.34781818464398384
+test mean IOU: 0.8377399295568466
+test left lung IOU: 0.7105130106210709
+test right lung IOU: 0.7335243374109268
+test trachea IOU: 0.3113698549568653
+test mean precision: 0.9444864690303802
+test left lung precision: 0.9673447757959366
+test right lung precision: 0.9516033977270126
+test trachea precision: 0.9145112186670303
+test mean recall: 0.8753478974103928
+test left lung recall: 0.7214653939008713
+test right lung recall: 0.7538090348243713
+test trachea recall: 0.338269229978323
+
+Iteration: 47
+train loss: 0.02445481127748887
+train pixel accuracy: 0.9920937220255533
+train mean dice: 0.8499996225039165
+train left lung dice: 0.7764413257439932
+train right lung dice: 0.7726866285006205
+train trachea dice: 0.39774582783381146
+train mean IOU: 0.8190777897834778
+train left lung IOU: 0.7492899894714355
+train right lung IOU: 0.7452153325080871
+train trachea IOU: 0.35960299472014107
+train mean precision: 0.8856935401757559
+train left lung precision: 0.8992336908976237
+train right lung precision: 0.8794843117396037
+train trachea precision: 0.8783625523249309
+train mean recall: 0.9179675320784251
+train left lung recall: 0.7757514079411825
+train right lung recall: 0.7784967044989268
+train trachea recall: 0.38507107843955357
+test loss: 0.029320704750716686
+test pixel accuracy: 0.9899468421936035
+test mean dice: 0.8770946264266968
+test left lung dice: 0.8374733328819275
+test right lung dice: 0.8067184835672379
+test trachea dice: 0.44021694362163544
+test mean IOU: 0.8349679261445999
+test left lung IOU: 0.7971122711896896
+test right lung IOU: 0.7660061717033386
+test trachea IOU: 0.39491013437509537
+test mean precision: 0.9289724975824356
+test left lung precision: 0.9536681771278381
+test right lung precision: 0.892242893576622
+test trachea precision: 0.9410063028335571
+test mean recall: 0.8906984180212021
+test left lung recall: 0.822948157787323
+test right lung recall: 0.7954898029565811
+test trachea recall: 0.41303225606679916
+
+Iteration: 48
+train loss: 0.01828141420458754
+train pixel accuracy: 0.9942083358764648
+train mean dice: 0.8627950588862101
+train left lung dice: 0.7831279714902242
+train right lung dice: 0.7843749205271403
+train trachea dice: 0.37504887183507285
+train mean IOU: 0.8351003170013428
+train left lung IOU: 0.7602409521738688
+train right lung IOU: 0.7615265091260274
+train trachea IOU: 0.3377001151442528
+train mean precision: 0.8974483370780945
+train left lung precision: 0.9187066495418549
+train right lung precision: 0.8890559156735738
+train trachea precision: 0.8845824122428894
+train mean recall: 0.9223822037378947
+train left lung recall: 0.7830416182676951
+train right lung recall: 0.7886305809020996
+train trachea recall: 0.36109937727451324
+test loss: 0.017258378909900784
+test pixel accuracy: 0.9948835372924805
+test mean dice: 0.8634285479784012
+test left lung dice: 0.8421289771795273
+test right lung dice: 0.7720779478549957
+test trachea dice: 0.3667037636041641
+test mean IOU: 0.8322443813085556
+test left lung IOU: 0.8100958913564682
+test right lung IOU: 0.751350611448288
+test trachea IOU: 0.32591165602207184
+test mean precision: 0.902088537812233
+test left lung precision: 0.9485737681388855
+test right lung precision: 0.8703785389661789
+test trachea precision: 0.8873131722211838
+test mean recall: 0.9192697405815125
+test left lung recall: 0.8269645422697067
+test right lung recall: 0.7687369585037231
+test trachea recall: 0.35742030292749405
+
+Iteration: 49
+train loss: 0.015082567309339842
+train pixel accuracy: 0.9947408040364584
+train mean dice: 0.8993756751219432
+train left lung dice: 0.7811452349026998
+train right lung dice: 0.7781049489974976
+train trachea dice: 0.3961684823036194
+train mean IOU: 0.8732732594013214
+train left lung IOU: 0.7605455954869588
+train right lung IOU: 0.7584537923336029
+train trachea IOU: 0.35811200936635335
+train mean precision: 0.9270065089066823
+train left lung precision: 0.943920369942983
+train right lung precision: 0.9383364121119181
+train trachea precision: 0.8987626771132151
+train mean recall: 0.9368029336134592
+train left lung recall: 0.7815451661745707
+train right lung recall: 0.779811946551005
+train trachea recall: 0.3886349692940712
+test loss: 0.01917863078415394
+test pixel accuracy: 0.993739128112793
+test mean dice: 0.8851972669363022
+test left lung dice: 0.8400902450084686
+test right lung dice: 0.7991103529930115
+test trachea dice: 0.42264115810394287
+test mean IOU: 0.8509055972099304
+test left lung IOU: 0.8069912940263748
+test right lung IOU: 0.7738779783248901
+test trachea IOU: 0.37809741497039795
+test mean precision: 0.9346539229154587
+test left lung precision: 0.9844948947429657
+test right lung precision: 0.9442711472511292
+test trachea precision: 0.8751955628395081
+test mean recall: 0.9060306251049042
+test left lung recall: 0.818833664059639
+test right lung recall: 0.7883394211530685
+test trachea recall: 0.42341870814561844
+
+Iteration: 50
+train loss: 0.013809823322420318
+train pixel accuracy: 0.9952517827351888
+train mean dice: 0.8912338097890218
+train left lung dice: 0.7865113953749339
+train right lung dice: 0.789149918158849
+train trachea dice: 0.3886650492747625
+train mean IOU: 0.8666158795356751
+train left lung IOU: 0.7666792551676432
+train right lung IOU: 0.7691478431224823
+train trachea IOU: 0.3546454836924871
+train mean precision: 0.9221492568651836
+train left lung precision: 0.9455942511558533
+train right lung precision: 0.9259664436181386
+train trachea precision: 0.8948870122432708
+train mean recall: 0.9334004720052084
+train left lung recall: 0.7851681590080262
+train right lung recall: 0.7910202542940775
+train trachea recall: 0.38026297440131507
+test loss: 0.014409692492336035
+test pixel accuracy: 0.9957275390625
+test mean dice: 0.8952187895774841
+test left lung dice: 0.819418653845787
+test right lung dice: 0.7956493496894836
+test trachea dice: 0.37527573108673096
+test mean IOU: 0.8670329004526138
+test left lung IOU: 0.790239229798317
+test right lung IOU: 0.7755921930074692
+test trachea IOU: 0.3399548828601837
+test mean precision: 0.9235452264547348
+test left lung precision: 0.9783654063940048
+test right lung precision: 0.9572586715221405
+test trachea precision: 0.8350115716457367
+test mean recall: 0.9340828359127045
+test left lung recall: 0.8088012486696243
+test right lung recall: 0.7937290668487549
+test trachea recall: 0.3872181624174118
+
+Mini U-Net, cross-entropy loss, lion optimizer, batch size = 32, only resize to 128x128 augmentations
+Iteration: 1
+train loss: 1.0019341170787812
+train pixel accuracy: 0.7649344762166341
+train mean dice: 0.1087057371934255
+train left lung dice: 0.2237596166630586
+train right lung dice: 0.08566226921975613
+train trachea dice: 0.005236976535525173
+train mean IOU: 0.06694072391837835
+train left lung IOU: 0.13952468211452165
+train right lung IOU: 0.04715461917221546
+train trachea IOU: 0.002684533448579411
+train mean precision: 0.13358782765765984
+train left lung precision: 0.1831939333428939
+train right lung precision: 0.19255654240647951
+train trachea precision: 0.025012993306154384
+train mean recall: 0.4478412707646688
+train left lung recall: 0.3940415312846502
+train right lung recall: 0.07622830035785834
+train trachea recall: 0.02533726601395756
+test loss: 1.4663561582565308
+test pixel accuracy: 0.6887636184692383
+test mean dice: 0.10149579122662544
+test left lung dice: 0.02228052611462772
+test right lung dice: 0.0009568407622282393
+test trachea dice: 1.7870062096747574e-09
+test mean IOU: 0.09792308881878853
+test left lung IOU: 0.012037160573527217
+test right lung IOU: 0.00048208902808255516
+test trachea IOU: 1.7870062096747574e-09
+test mean precision: 0.19108880683779716
+test left lung precision: 0.014281426090747118
+test right lung precision: 0.004297476931242272
+test trachea precision: 0.5546875
+test mean recall: 0.2749497964978218
+test left lung recall: 0.06643582414835691
+test right lung recall: 0.0006010642500768881
+test trachea recall: 2.365407279769638e-10
+
+Iteration: 2
+train loss: 0.6852813641230265
+train pixel accuracy: 0.8964522043863933
+train mean dice: 0.2842814301451047
+train left lung dice: 0.35677488148212433
+train right lung dice: 0.17568922241528828
+train trachea dice: 0.0016301543900243002
+train mean IOU: 0.22082434395949047
+train left lung IOU: 0.23850598980983098
+train right lung IOU: 0.10437227586905161
+train trachea IOU: 0.00084475325053834
+train mean precision: 0.4332580387592316
+train left lung precision: 0.3252735157807668
+train right lung precision: 0.3793608317772547
+train trachea precision: 0.5951397240161895
+train mean recall: 0.49085168341795604
+train left lung recall: 0.47444839080174767
+train right lung recall: 0.13942742000023525
+train trachea recall: 0.001387536999605316
+test loss: 1.630765050649643
+test pixel accuracy: 0.7522115707397461
+test mean dice: 0.11459615267813206
+test left lung dice: 0.2913278117775917
+test right lung dice: 0.052460625767707825
+test trachea dice: 2.125285641918495e-10
+test mean IOU: 0.06908909324556589
+test left lung IOU: 0.1797373853623867
+test right lung IOU: 0.027529886923730373
+test trachea IOU: 2.125285641918495e-10
+test mean precision: 0.08314675465226173
+test left lung precision: 0.19317231327295303
+test right lung precision: 0.05626795161515474
+test trachea precision: 2.8530920681557603e-10
+test mean recall: 0.46580905467271805
+test left lung recall: 0.653181180357933
+test right lung recall: 0.05674592684954405
+test trachea recall: 1.6559113455438812e-10
+
+Iteration: 3
+train loss: 0.5782735725243886
+train pixel accuracy: 0.9107394536336263
+train mean dice: 0.36264421542485553
+train left lung dice: 0.27773032486438753
+train right lung dice: 0.32987000942230227
+train trachea dice: 0.0001239227788214392
+train mean IOU: 0.29282711098591485
+train left lung IOU: 0.1772764119009177
+train right lung IOU: 0.22093264932433765
+train trachea IOU: 6.391215501373078e-05
+train mean precision: 0.5596531043450038
+train left lung precision: 0.33304941058158877
+train right lung precision: 0.3924463172753652
+train trachea precision: 0.9534635424613953
+train mean recall: 0.4899630218744278
+train left lung recall: 0.304578081270059
+train right lung recall: 0.35689824546376864
+train trachea recall: 7.93653387934278e-05
+test loss: 0.5297726392745972
+test pixel accuracy: 0.9172344207763672
+test mean dice: 0.40831298381090164
+test left lung dice: 0.28971831500530243
+test right lung dice: 0.4352206066250801
+test trachea dice: 3.051674260512449e-10
+test mean IOU: 0.325396329164505
+test left lung IOU: 0.17723774537444115
+test right lung IOU: 0.2989512011408806
+test trachea IOU: 3.051674260512449e-10
+test mean precision: 0.595104530453682
+test left lung precision: 0.3537624329328537
+test right lung precision: 0.43155112862586975
+test trachea precision: 1.0
+test mean recall: 0.474953830242157
+test left lung recall: 0.26743505895137787
+test right lung recall: 0.4777388572692871
+test trachea recall: 3.051674260512449e-10
+
+Iteration: 4
+train loss: 0.5147269576787948
+train pixel accuracy: 0.9210045496622722
+train mean dice: 0.3443322032690048
+train left lung dice: 0.09657290515800317
+train right lung dice: 0.4562153309583664
+train trachea dice: 2.6846044461533345e-10
+train mean IOU: 0.2888823206226031
+train left lung IOU: 0.0529470585907499
+train right lung IOU: 0.33349152902762097
+train trachea IOU: 2.6846044461533345e-10
+train mean precision: 0.564074860016505
+train left lung precision: 0.3005199685692787
+train right lung precision: 0.39170455038547514
+train trachea precision: 1.0
+train mean recall: 0.5044530183076859
+train left lung recall: 0.06680879754324755
+train right lung recall: 0.6100918928782145
+train trachea recall: 2.6846044461533345e-10
+test loss: 0.45502448827028275
+test pixel accuracy: 0.9298934936523438
+test mean dice: 0.35854099690914154
+test left lung dice: 0.0932272057980299
+test right lung dice: 0.4980207681655884
+test trachea dice: 2.360501308307228e-10
+test mean IOU: 0.30075423419475555
+test left lung IOU: 0.050096976570785046
+test right lung IOU: 0.36779069155454636
+test trachea IOU: 2.360501308307228e-10
+test mean precision: 0.6004154235124588
+test left lung precision: 0.3469682037830353
+test right lung precision: 0.45427805185317993
+test trachea precision: 1.0
+test mean recall: 0.470204658806324
+test left lung recall: 0.05708328355103731
+test right lung recall: 0.6738431304693222
+test trachea recall: 2.360501308307228e-10
+
+Iteration: 5
+train loss: 0.46217665473620095
+train pixel accuracy: 0.9250209172566731
+train mean dice: 0.3531464288632075
+train left lung dice: 0.057402543847759564
+train right lung dice: 0.477036714553833
+train trachea dice: 2.490569461314577e-10
+train mean IOU: 0.30236271719137825
+train left lung IOU: 0.03032123502343893
+train right lung IOU: 0.35176689128081
+train trachea IOU: 2.490569461314577e-10
+train mean precision: 0.5647535413503647
+train left lung precision: 0.2943019280831019
+train right lung precision: 0.39995862046877545
+train trachea precision: 1.0
+train mean recall: 0.5181914021571478
+train left lung recall: 0.03480698596686125
+train right lung recall: 0.6739338397979736
+train trachea recall: 2.490569461314577e-10
+test loss: 0.4132591634988785
+test pixel accuracy: 0.9318804740905762
+test mean dice: 0.37277134507894516
+test left lung dice: 0.08417824655771255
+test right lung dice: 0.5263232588768005
+test trachea dice: 1.6036054428791857e-10
+test mean IOU: 0.31563734263181686
+test left lung IOU: 0.045014528557658195
+test right lung IOU: 0.39408498257398605
+test trachea IOU: 1.6036054428791857e-10
+test mean precision: 0.620061844587326
+test left lung precision: 0.4002517983317375
+test right lung precision: 0.45993366837501526
+test trachea precision: 1.0
+test mean recall: 0.48675672709941864
+test left lung recall: 0.048447719775140285
+test right lung recall: 0.7165098935365677
+test trachea recall: 1.6036054428791857e-10
+
+Iteration: 6
+train loss: 0.41617743074893954
+train pixel accuracy: 0.925098737080892
+train mean dice: 0.36538601020971934
+train left lung dice: 0.10170725968976815
+train right lung dice: 0.4819507300853729
+train trachea dice: 2.446305718180793e-10
+train mean IOU: 0.30894218385219574
+train left lung IOU: 0.05724557352562745
+train right lung IOU: 0.35708095133304596
+train trachea IOU: 2.446305718180793e-10
+train mean precision: 0.5909823934237163
+train left lung precision: 0.3594252253572146
+train right lung precision: 0.4135218898455302
+train trachea precision: 1.0
+train mean recall: 0.5238912304242452
+train left lung recall: 0.06666978324453036
+train right lung recall: 0.6529205302397411
+train trachea recall: 2.446305718180793e-10
+test loss: 0.3734130710363388
+test pixel accuracy: 0.9361991882324219
+test mean dice: 0.39220545440912247
+test left lung dice: 0.12093846872448921
+test right lung dice: 0.5166153386235237
+test trachea dice: 1.9235526713123896e-10
+test mean IOU: 0.3306640386581421
+test left lung IOU: 0.06655826978385448
+test right lung IOU: 0.38637131452560425
+test trachea IOU: 1.9235526713123896e-10
+test mean precision: 0.6337801665067673
+test left lung precision: 0.42764436453580856
+test right lung precision: 0.4736960157752037
+test trachea precision: 1.0
+test mean recall: 0.5003050863742828
+test left lung recall: 0.07553568668663502
+test right lung recall: 0.7222545444965363
+test trachea recall: 1.9235526713123896e-10
+
+Iteration: 7
+train loss: 0.3716616749763489
+train pixel accuracy: 0.9290523529052734
+train mean dice: 0.38782550394535065
+train left lung dice: 0.13656802996993064
+train right lung dice: 0.48524179458618166
+train trachea dice: 2.489369756627132e-10
+train mean IOU: 0.3273474971453349
+train left lung IOU: 0.08118215824166934
+train right lung IOU: 0.35919365684191384
+train trachea IOU: 2.489369756627132e-10
+train mean precision: 0.6212961773077647
+train left lung precision: 0.44226800799369814
+train right lung precision: 0.4216204285621643
+train trachea precision: 1.0
+train mean recall: 0.529296699166298
+train left lung recall: 0.09979603153963884
+train right lung recall: 0.6443440318107605
+train trachea recall: 2.489369756627132e-10
+test loss: 0.3320591151714325
+test pixel accuracy: 0.9388628005981445
+test mean dice: 0.406084306538105
+test left lung dice: 0.11271048709750175
+test right lung dice: 0.5117923691868782
+test trachea dice: 1.4016206771605422e-10
+test mean IOU: 0.34624285250902176
+test left lung IOU: 0.06170979514718056
+test right lung IOU: 0.38326872885227203
+test trachea IOU: 1.4016206771605422e-10
+test mean precision: 0.6425002217292786
+test left lung precision: 0.4832471087574959
+test right lung precision: 0.44425348937511444
+test trachea precision: 1.0
+test mean recall: 0.5326649844646454
+test left lung recall: 0.0667489692568779
+test right lung recall: 0.7187459170818329
+test trachea recall: 1.4016206771605422e-10
+
+Iteration: 8
+train loss: 0.3414317101240158
+train pixel accuracy: 0.9288649876912435
+train mean dice: 0.4339210400978724
+train left lung dice: 0.17862569019198418
+train right lung dice: 0.5043874025344849
+train trachea dice: 2.5057352072884363e-10
+train mean IOU: 0.36884895861148836
+train left lung IOU: 0.10998741028209527
+train right lung IOU: 0.37780944208304085
+train trachea IOU: 2.5057352072884363e-10
+train mean precision: 0.6717981358369192
+train left lung precision: 0.559736467897892
+train right lung precision: 0.45565787653128303
+train trachea precision: 1.0
+train mean recall: 0.5510148415962856
+train left lung recall: 0.13346232833961647
+train right lung recall: 0.6487488090991974
+train trachea recall: 2.5057352072884363e-10
+test loss: 0.2937172204256058
+test pixel accuracy: 0.9446749687194824
+test mean dice: 0.5025058090686798
+test left lung dice: 0.3067750930786133
+test right lung dice: 0.521054819226265
+test trachea dice: 1.295938720918821e-10
+test mean IOU: 0.4246567338705063
+test left lung IOU: 0.19704071432352066
+test right lung IOU: 0.3972419574856758
+test trachea IOU: 1.295938720918821e-10
+test mean precision: 0.7148243188858032
+test left lung precision: 0.625187337398529
+test right lung precision: 0.5192855447530746
+test trachea precision: 1.0
+test mean recall: 0.5725415647029877
+test left lung recall: 0.23823484033346176
+test right lung recall: 0.6122022718191147
+test trachea recall: 1.295938720918821e-10
+
+Iteration: 9
+train loss: 0.3002437730630239
+train pixel accuracy: 0.9405399958292643
+train mean dice: 0.483328969279925
+train left lung dice: 0.3333972518642743
+train right lung dice: 0.5009646306435267
+train trachea dice: 2.583349099453495e-10
+train mean IOU: 0.4063758919636408
+train left lung IOU: 0.22624431053797403
+train right lung IOU: 0.37725833455721536
+train trachea IOU: 2.583349099453495e-10
+train mean precision: 0.7097346186637878
+train left lung precision: 0.6243320067723592
+train right lung precision: 0.504871787627538
+train trachea precision: 1.0
+train mean recall: 0.5735029439131419
+train left lung recall: 0.28632038409511246
+train right lung recall: 0.581063441435496
+train trachea recall: 2.583349099453495e-10
+test loss: 0.26162100583314896
+test pixel accuracy: 0.9545001983642578
+test mean dice: 0.5374382734298706
+test left lung dice: 0.4808249995112419
+test right lung dice: 0.5064896494150162
+test trachea dice: 2.6169609881887546e-10
+test mean IOU: 0.451104536652565
+test left lung IOU: 0.3450075313448906
+test right lung IOU: 0.38330604135990143
+test trachea IOU: 2.6169609881887546e-10
+test mean precision: 0.741385206580162
+test left lung precision: 0.6868004500865936
+test right lung precision: 0.5373550727963448
+test trachea precision: 1.0
+test mean recall: 0.5991574972867966
+test left lung recall: 0.450529083609581
+test right lung recall: 0.5422558784484863
+test trachea recall: 2.6169609881887546e-10
+
+Iteration: 10
+train loss: 0.2686704233288765
+train pixel accuracy: 0.9500453313191731
+train mean dice: 0.5299236476421356
+train left lung dice: 0.4726700186729431
+train right lung dice: 0.5087675631046296
+train trachea dice: 2.5520577133046156e-10
+train mean IOU: 0.4515534371137619
+train left lung IOU: 0.3537283927202225
+train right lung IOU: 0.3925985445578893
+train trachea IOU: 2.5520577133046156e-10
+train mean precision: 0.7190977931022644
+train left lung precision: 0.6022459973891576
+train right lung precision: 0.5550473163525264
+train trachea precision: 1.0
+train mean recall: 0.6265849312146504
+train left lung recall: 0.46079726616541544
+train right lung recall: 0.5283324460188548
+train trachea recall: 2.5520577133046156e-10
+test loss: 0.23150986060500145
+test pixel accuracy: 0.9606537818908691
+test mean dice: 0.5741035789251328
+test left lung dice: 0.5978466272354126
+test right lung dice: 0.5463390946388245
+test trachea dice: 2.4168932133417087e-10
+test mean IOU: 0.4929255321621895
+test left lung IOU: 0.4723360314965248
+test right lung IOU: 0.4283154606819153
+test trachea IOU: 2.4168932133417087e-10
+test mean precision: 0.7535058408975601
+test left lung precision: 0.627698689699173
+test right lung precision: 0.6328187733888626
+test trachea precision: 1.0
+test mean recall: 0.6473091840744019
+test left lung recall: 0.6705103814601898
+test right lung recall: 0.5370421260595322
+test trachea recall: 2.4168932133417087e-10
+
+Iteration: 11
+train loss: 0.23028215020895004
+train pixel accuracy: 0.9577987670898438
+train mean dice: 0.5770582358042399
+train left lung dice: 0.5688743819793065
+train right lung dice: 0.5800085862477621
+train trachea dice: 2.421812958508518e-10
+train mean IOU: 0.5030378192663193
+train left lung IOU: 0.4555604745944341
+train right lung IOU: 0.471261261900266
+train trachea IOU: 2.421812958508518e-10
+train mean precision: 0.7795911272366841
+train left lung precision: 0.7014198859532674
+train right lung precision: 0.6373534580071767
+train trachea precision: 1.0
+train mean recall: 0.648506901661555
+train left lung recall: 0.5576602747042974
+train right lung recall: 0.5899437149365743
+train trachea recall: 2.421812958508518e-10
+test loss: 0.18302390724420547
+test pixel accuracy: 0.9713993072509766
+test mean dice: 0.6064490377902985
+test left lung dice: 0.668226808309555
+test right lung dice: 0.494870200753212
+test trachea dice: 2.3928867914913e-10
+test mean IOU: 0.5366645604372025
+test left lung IOU: 0.5555282235145569
+test right lung IOU: 0.3982154428958893
+test trachea IOU: 2.3928867914913e-10
+test mean precision: 0.81366927921772
+test left lung precision: 0.7074492871761322
+test right lung precision: 0.7335584908723831
+test trachea precision: 1.0
+test mean recall: 0.6694464236497879
+test left lung recall: 0.7345174103975296
+test right lung recall: 0.43007179349660873
+test trachea recall: 2.3928867914913e-10
+
+Iteration: 12
+train loss: 0.19818944980700812
+train pixel accuracy: 0.9669949849446614
+train mean dice: 0.5932020823160807
+train left lung dice: 0.5830611159404119
+train right lung dice: 0.5986284087101619
+train trachea dice: 2.5370359054329345e-10
+train mean IOU: 0.532396619518598
+train left lung IOU: 0.49004655281702675
+train right lung IOU: 0.50922658542792
+train trachea IOU: 2.5370359054329345e-10
+train mean precision: 0.7945553322633108
+train left lung precision: 0.7204245626926422
+train right lung precision: 0.6632413923740387
+train trachea precision: 1.0
+train mean recall: 0.6809754033883413
+train left lung recall: 0.5828194797039032
+train right lung recall: 0.6090649763743082
+train trachea recall: 2.5370359054329345e-10
+test loss: 0.1764766424894333
+test pixel accuracy: 0.9657011032104492
+test mean dice: 0.6089465767145157
+test left lung dice: 0.6576112359762192
+test right lung dice: 0.5051659345626831
+test trachea dice: 2.2562670481951486e-10
+test mean IOU: 0.5324446111917496
+test left lung IOU: 0.5406952798366547
+test right lung IOU: 0.3925759345293045
+test trachea IOU: 2.2562670481951486e-10
+test mean precision: 0.8625594973564148
+test left lung precision: 0.6784680336713791
+test right lung precision: 0.9092104434967041
+test trachea precision: 1.0
+test mean recall: 0.6360233724117279
+test left lung recall: 0.7428193539381027
+test right lung recall: 0.3996257111430168
+test trachea recall: 2.2562670481951486e-10
+
+Iteration: 13
+train loss: 0.17061452070871988
+train pixel accuracy: 0.9720273971557617
+train mean dice: 0.6178493897120158
+train left lung dice: 0.625412627061208
+train right lung dice: 0.6375105202198028
+train trachea dice: 2.3241182173228124e-10
+train mean IOU: 0.5633272449175517
+train left lung IOU: 0.5418070177237193
+train right lung IOU: 0.5575496584177018
+train trachea IOU: 2.3241182173228124e-10
+train mean precision: 0.8077413002649944
+train left lung precision: 0.7386970003445943
+train right lung precision: 0.684526817003886
+train trachea precision: 1.0
+train mean recall: 0.7038089990615845
+train left lung recall: 0.6160391529401144
+train right lung recall: 0.6495544652144114
+train trachea recall: 2.3241182173228124e-10
+test loss: 0.15101641416549683
+test pixel accuracy: 0.9720592498779297
+test mean dice: 0.6044253557920456
+test left lung dice: 0.6600460708141327
+test right lung dice: 0.5516674667596817
+test trachea dice: 2.3181698227681125e-10
+test mean IOU: 0.5388630628585815
+test left lung IOU: 0.5634893476963043
+test right lung IOU: 0.45153724402189255
+test trachea IOU: 2.3181698227681125e-10
+test mean precision: 0.8876817971467972
+test left lung precision: 0.7089443355798721
+test right lung precision: 0.9541010111570358
+test trachea precision: 1.0
+test mean recall: 0.6286176592111588
+test left lung recall: 0.7488408386707306
+test right lung recall: 0.4573245868086815
+test trachea recall: 2.3181698227681125e-10
+
+Iteration: 14
+train loss: 0.1492066999276479
+train pixel accuracy: 0.9751039505004883
+train mean dice: 0.6296887040138245
+train left lung dice: 0.6637054363886515
+train right lung dice: 0.6649439573287964
+train trachea dice: 2.5695386744276995e-10
+train mean IOU: 0.5801934858163198
+train left lung IOU: 0.5889584332704544
+train right lung IOU: 0.591205311814944
+train trachea IOU: 2.5695386744276995e-10
+train mean precision: 0.8264856239159902
+train left lung precision: 0.7722720126310985
+train right lung precision: 0.7071847955385844
+train trachea precision: 1.0
+train mean recall: 0.7114074409008027
+train left lung recall: 0.6549095014731089
+train right lung recall: 0.6741044501463572
+train trachea recall: 2.5695386744276995e-10
+test loss: 0.11683797091245651
+test pixel accuracy: 0.9834179878234863
+test mean dice: 0.6479570269584656
+test left lung dice: 0.7387692928314209
+test right lung dice: 0.7207268178462982
+test trachea dice: 2.842262258884176e-10
+test mean IOU: 0.6025331318378448
+test left lung IOU: 0.6714620441198349
+test right lung IOU: 0.6517622768878937
+test trachea IOU: 2.842262258884176e-10
+test mean precision: 0.8547177761793137
+test left lung precision: 0.7563712447881699
+test right lung precision: 0.8077820390462875
+test trachea precision: 1.0
+test mean recall: 0.7198108732700348
+test left lung recall: 0.7879074960947037
+test right lung recall: 0.6840251088142395
+test trachea recall: 2.842262258884176e-10
+
+Iteration: 15
+train loss: 0.12973414808511735
+train pixel accuracy: 0.9788733800252278
+train mean dice: 0.6382326702276866
+train left lung dice: 0.6544978638490041
+train right lung dice: 0.6758251051108043
+train trachea dice: 2.8931135912883356e-10
+train mean IOU: 0.5953660945097605
+train left lung IOU: 0.5899424463510513
+train right lung IOU: 0.6117807964483897
+train trachea IOU: 2.8931135912883356e-10
+train mean precision: 0.8249676803747813
+train left lung precision: 0.741076014439265
+train right lung precision: 0.7338269948959351
+train trachea precision: 1.0
+train mean recall: 0.7285353700319926
+train left lung recall: 0.6510878145694733
+train right lung recall: 0.6834765831629436
+train trachea recall: 2.8931135912883356e-10
+test loss: 0.10491923056542873
+test pixel accuracy: 0.9858341217041016
+test mean dice: 0.7268543988466263
+test left lung dice: 0.7975842356681824
+test right lung dice: 0.7814164161682129
+test trachea dice: 2.1428667520972944e-10
+test mean IOU: 0.6843412518501282
+test left lung IOU: 0.731994241476059
+test right lung IOU: 0.719466894865036
+test trachea IOU: 2.1428667520972944e-10
+test mean precision: 0.9014564901590347
+test left lung precision: 0.8802859336137772
+test right lung precision: 0.8240835070610046
+test trachea precision: 1.0
+test mean recall: 0.7593545615673065
+test left lung recall: 0.7840963006019592
+test right lung recall: 0.7908423691987991
+test trachea recall: 2.1428667520972944e-10
+
+Iteration: 16
+train loss: 0.10796218464771906
+train pixel accuracy: 0.9824874242146809
+train mean dice: 0.6739790042241415
+train left lung dice: 0.6879783560832341
+train right lung dice: 0.7172919551531474
+train trachea dice: 2.526188200753972e-10
+train mean IOU: 0.6335105041662852
+train left lung IOU: 0.6266881465911865
+train right lung IOU: 0.6571766287088394
+train trachea IOU: 2.526188200753972e-10
+train mean precision: 0.8558952232201894
+train left lung precision: 0.7896896501382192
+train right lung precision: 0.7779959499835968
+train trachea precision: 1.0
+train mean recall: 0.7463076293468476
+train left lung recall: 0.6774253696203232
+train right lung recall: 0.725039134422938
+train trachea recall: 2.526188200753972e-10
+test loss: 0.09181919321417809
+test pixel accuracy: 0.9864706993103027
+test mean dice: 0.7212000638246536
+test left lung dice: 0.7534973919391632
+test right lung dice: 0.7147901952266693
+test trachea dice: 1.3441935411973027e-10
+test mean IOU: 0.6790315210819244
+test left lung IOU: 0.6853152066469193
+test right lung IOU: 0.6564668864011765
+test trachea IOU: 1.3441935411973027e-10
+test mean precision: 0.8730650544166565
+test left lung precision: 0.8065953999757767
+test right lung precision: 0.8125997185707092
+test trachea precision: 1.0
+test mean recall: 0.7785767614841461
+test left lung recall: 0.7903009802103043
+test right lung recall: 0.7016792893409729
+test trachea recall: 1.3441935411973027e-10
+
+Iteration: 17
+train loss: 0.09915554299950599
+train pixel accuracy: 0.9827060063680013
+train mean dice: 0.6681549946467081
+train left lung dice: 0.7115938623746236
+train right lung dice: 0.7355794250965119
+train trachea dice: 2.611087866755124e-10
+train mean IOU: 0.6317708472410838
+train left lung IOU: 0.657046369711558
+train right lung IOU: 0.6809744397799175
+train trachea IOU: 2.611087866755124e-10
+train mean precision: 0.8578059693177541
+train left lung precision: 0.789125547806422
+train right lung precision: 0.7842923005421957
+train trachea precision: 1.0
+train mean recall: 0.7443497558434804
+train left lung recall: 0.703223337729772
+train right lung recall: 0.7464925328890483
+train trachea recall: 2.611087866755124e-10
+test loss: 0.08264417760074139
+test pixel accuracy: 0.9851841926574707
+test mean dice: 0.6952798813581467
+test left lung dice: 0.7451392859220505
+test right lung dice: 0.7391377687454224
+test trachea dice: 2.7593154844351986e-10
+test mean IOU: 0.6554895639419556
+test left lung IOU: 0.678171306848526
+test right lung IOU: 0.6867349594831467
+test trachea IOU: 2.7593154844351986e-10
+test mean precision: 0.9335518032312393
+test left lung precision: 0.934564545750618
+test right lung precision: 0.8660908043384552
+test trachea precision: 1.0
+test mean recall: 0.7054236531257629
+test left lung recall: 0.706428736448288
+test right lung recall: 0.7223421782255173
+test trachea recall: 2.7593154844351986e-10
+
+Iteration: 18
+train loss: 0.08623445630073548
+train pixel accuracy: 0.985429318745931
+train mean dice: 0.6809023916721344
+train left lung dice: 0.7142903765042623
+train right lung dice: 0.7398750940958659
+train trachea dice: 2.6066468983287903e-10
+train mean IOU: 0.6473326722780863
+train left lung IOU: 0.6644741674264272
+train right lung IOU: 0.6889821290969849
+train trachea IOU: 2.6066468983287903e-10
+train mean precision: 0.866872658332189
+train left lung precision: 0.8047210554281871
+train right lung precision: 0.7958968540032705
+train trachea precision: 1.0
+train mean recall: 0.7546110610167186
+train left lung recall: 0.7085026045640309
+train right lung recall: 0.7480388641357422
+train trachea recall: 2.6066468983287903e-10
+test loss: 0.06967195309698582
+test pixel accuracy: 0.9887456893920898
+test mean dice: 0.7071538716554642
+test left lung dice: 0.7252374142408371
+test right lung dice: 0.6930992007255554
+test trachea dice: 2.2413565448076156e-10
+test mean IOU: 0.6757555305957794
+test left lung IOU: 0.6704427152872086
+test right lung IOU: 0.6536988615989685
+test trachea IOU: 2.2413565448076156e-10
+test mean precision: 0.9344631433486938
+test left lung precision: 0.9223284274339676
+test right lung precision: 0.8810608834028244
+test trachea precision: 1.0
+test mean recall: 0.7304271310567856
+test left lung recall: 0.6846154183149338
+test right lung recall: 0.7019783705472946
+test trachea recall: 2.2413565448076156e-10
+
+Iteration: 19
+train loss: 0.07250870441397031
+train pixel accuracy: 0.987359619140625
+train mean dice: 0.6789576967557271
+train left lung dice: 0.7113469680150349
+train right lung dice: 0.7286510606606801
+train trachea dice: 2.5024377477607845e-10
+train mean IOU: 0.64923268755277
+train left lung IOU: 0.6667835305134455
+train right lung IOU: 0.6840395073095957
+train trachea IOU: 2.5024377477607845e-10
+train mean precision: 0.8669807096322377
+train left lung precision: 0.8117700656255086
+train right lung precision: 0.7891720096270244
+train trachea precision: 1.0
+train mean recall: 0.7640438695748647
+train left lung recall: 0.7037572006384532
+train right lung recall: 0.7362910389900208
+train trachea recall: 2.5024377477607845e-10
+test loss: 0.057659353129565716
+test pixel accuracy: 0.9907760620117188
+test mean dice: 0.7190725803375244
+test left lung dice: 0.7754773497581482
+test right lung dice: 0.7176778018474579
+test trachea dice: 2.503380627794094e-10
+test mean IOU: 0.6923182159662247
+test left lung IOU: 0.7307199537754059
+test right lung IOU: 0.6821722239255905
+test trachea IOU: 2.503380627794094e-10
+test mean precision: 0.9323374629020691
+test left lung precision: 0.8629679381847382
+test right lung precision: 0.9340443462133408
+test trachea precision: 1.0
+test mean recall: 0.7481029480695724
+test left lung recall: 0.7832213044166565
+test right lung recall: 0.7032749354839325
+test trachea recall: 2.503380627794094e-10
+
+Iteration: 20
+train loss: 0.06822687101860841
+train pixel accuracy: 0.9871897379557292
+train mean dice: 0.7089017848173778
+train left lung dice: 0.7247099995613098
+train right lung dice: 0.7405369659264882
+train trachea dice: 2.397811777835971e-10
+train mean IOU: 0.681431790192922
+train left lung IOU: 0.6827957093715668
+train right lung IOU: 0.7000412762165069
+train trachea IOU: 2.397811777835971e-10
+train mean precision: 0.88712158203125
+train left lung precision: 0.8376356263955435
+train right lung precision: 0.8237290680408478
+train trachea precision: 1.0
+train mean recall: 0.7774247745672862
+train left lung recall: 0.7190622806549072
+train right lung recall: 0.7423786163330078
+train trachea recall: 2.397811777835971e-10
+test loss: 0.053336383774876595
+test pixel accuracy: 0.9902606010437012
+test mean dice: 0.7252127677202225
+test left lung dice: 0.7844617366790771
+test right lung dice: 0.7505515664815903
+test trachea dice: 1.7840650831657534e-10
+test mean IOU: 0.6930130571126938
+test left lung IOU: 0.7319681197404861
+test right lung IOU: 0.7064459770917892
+test trachea IOU: 1.7840650831657534e-10
+test mean precision: 0.936455562710762
+test left lung precision: 0.9770241379737854
+test right lung precision: 0.8323424011468887
+test trachea precision: 1.0
+test mean recall: 0.7516107112169266
+test left lung recall: 0.7495165169239044
+test right lung recall: 0.7787530422210693
+test trachea recall: 1.7840650831657534e-10
+
+Iteration: 21
+train loss: 0.06286972475548586
+train pixel accuracy: 0.9876595815022786
+train mean dice: 0.7079685707887013
+train left lung dice: 0.7495045204957326
+train right lung dice: 0.7525261143843333
+train trachea dice: 3.0380164934655046e-10
+train mean IOU: 0.6819069226582845
+train left lung IOU: 0.7090701897939046
+train right lung IOU: 0.7147755285104116
+train trachea IOU: 3.0380164934655046e-10
+train mean precision: 0.8987492561340332
+train left lung precision: 0.8591903646787008
+train right lung precision: 0.8370573580265045
+train trachea precision: 1.0
+train mean recall: 0.7697082241376241
+train left lung recall: 0.7430350442727407
+train right lung recall: 0.7556729058424632
+train trachea recall: 3.0380164934655046e-10
+test loss: 0.04683569632470608
+test pixel accuracy: 0.9907832145690918
+test mean dice: 0.7210732400417328
+test left lung dice: 0.8059372454881668
+test right lung dice: 0.747907429933548
+test trachea dice: 2.5000968309485394e-10
+test mean IOU: 0.6898330301046371
+test left lung IOU: 0.7510431259870529
+test right lung IOU: 0.7090808600187302
+test trachea IOU: 2.5000968309485394e-10
+test mean precision: 0.9260685294866562
+test left lung precision: 0.8864736109972
+test right lung precision: 0.8917317986488342
+test trachea precision: 1.0
+test mean recall: 0.7539695054292679
+test left lung recall: 0.7757846117019653
+test right lung recall: 0.7673738598823547
+test trachea recall: 2.5000968309485394e-10
+
+Iteration: 22
+train loss: 0.05336882534126441
+train pixel accuracy: 0.9893780390421549
+train mean dice: 0.7121568957964579
+train left lung dice: 0.7539265890916188
+train right lung dice: 0.7606690347194671
+train trachea dice: 2.707874040737875e-10
+train mean IOU: 0.6872502724329631
+train left lung IOU: 0.7172471533219019
+train right lung IOU: 0.7226286133130392
+train trachea IOU: 2.707874040737875e-10
+train mean precision: 0.8919733842213948
+train left lung precision: 0.8419964412848154
+train right lung precision: 0.8339236418406168
+train trachea precision: 1.0
+train mean recall: 0.7842492083708446
+train left lung recall: 0.752159587542216
+train right lung recall: 0.7651712954044342
+train trachea recall: 2.707874040737875e-10
+test loss: 0.03928495664149523
+test pixel accuracy: 0.9921479225158691
+test mean dice: 0.7382678389549255
+test left lung dice: 0.7392412424087524
+test right lung dice: 0.7099373042583466
+test trachea dice: 1.9063362000082407e-10
+test mean IOU: 0.7141914963722229
+test left lung IOU: 0.6974497735500336
+test right lung IOU: 0.6794996559619904
+test trachea IOU: 1.9063362000082407e-10
+test mean precision: 0.9051215946674347
+test left lung precision: 0.8902451246976852
+test right lung precision: 0.8251195698976517
+test trachea precision: 1.0
+test mean recall: 0.8048951327800751
+test left lung recall: 0.7209821492433548
+test right lung recall: 0.7015156000852585
+test trachea recall: 1.9063362000082407e-10
+
+Iteration: 23
+train loss: 0.051726560667157175
+train pixel accuracy: 0.9887275060017904
+train mean dice: 0.7124512652556102
+train left lung dice: 0.7228305359681447
+train right lung dice: 0.730148192246755
+train trachea dice: 1.8652635824789598e-10
+train mean IOU: 0.6886459251244863
+train left lung IOU: 0.687897127866745
+train right lung IOU: 0.6936656296253204
+train trachea IOU: 1.8652635824789598e-10
+train mean precision: 0.8872863074143728
+train left lung precision: 0.848092379172643
+train right lung precision: 0.8137664933999379
+train trachea precision: 1.0
+train mean recall: 0.7862004359563192
+train left lung recall: 0.719667112827301
+train right lung recall: 0.7368508358796437
+train trachea recall: 1.8652635824789598e-10
+test loss: 0.0501211890950799
+test pixel accuracy: 0.9874787330627441
+test mean dice: 0.7630326598882675
+test left lung dice: 0.7366785109043121
+test right lung dice: 0.7399193495512009
+test trachea dice: 2.1969234417773542e-10
+test mean IOU: 0.7336311191320419
+test left lung IOU: 0.6903997957706451
+test right lung IOU: 0.6979934424161911
+test trachea IOU: 2.1969234417773542e-10
+test mean precision: 0.9726435840129852
+test left lung precision: 0.9807908535003662
+test right lung precision: 0.9371398389339447
+test trachea precision: 1.0
+test mean recall: 0.756036177277565
+test left lung recall: 0.6977788060903549
+test right lung recall: 0.7109546810388565
+test trachea recall: 2.1969234417773542e-10
+
+Iteration: 24
+train loss: 0.040545077559848625
+train pixel accuracy: 0.9911642710367838
+train mean dice: 0.7076793551445008
+train left lung dice: 0.734536761045456
+train right lung dice: 0.7416262924671173
+train trachea dice: 2.4418166516548824e-10
+train mean IOU: 0.6866745511690776
+train left lung IOU: 0.7036454935868581
+train right lung IOU: 0.7095030844211578
+train trachea IOU: 2.4418166516548824e-10
+train mean precision: 0.8907154122988383
+train left lung precision: 0.8418197234471639
+train right lung precision: 0.8303264478842417
+train trachea precision: 1.0
+train mean recall: 0.782299667596817
+train left lung recall: 0.7305101851622263
+train right lung recall: 0.7445137719313304
+train trachea recall: 2.4418166516548824e-10
+test loss: 0.04418398439884186
+test pixel accuracy: 0.9887328147888184
+test mean dice: 0.7202326208353043
+test left lung dice: 0.7239529639482498
+test right lung dice: 0.7336198538541794
+test trachea dice: 2.338461195516839e-10
+test mean IOU: 0.6866753250360489
+test left lung IOU: 0.6673435270786285
+test right lung IOU: 0.6895574182271957
+test trachea IOU: 2.338461195516839e-10
+test mean precision: 0.9303371906280518
+test left lung precision: 0.9864116907119751
+test right lung precision: 0.8045998066663742
+test trachea precision: 1.0
+test mean recall: 0.7478830963373184
+test left lung recall: 0.6712136566638947
+test right lung recall: 0.7521230131387711
+test trachea recall: 2.338461195516839e-10
+
+Iteration: 25
+train loss: 0.04351410294572512
+train pixel accuracy: 0.9898074467976888
+train mean dice: 0.7180218120416005
+train left lung dice: 0.7607004622618357
+train right lung dice: 0.7631565789381664
+train trachea dice: 3.011066886567567e-10
+train mean IOU: 0.6948072930177053
+train left lung IOU: 0.7247631827990214
+train right lung IOU: 0.7294502496719361
+train trachea IOU: 3.011066886567567e-10
+train mean precision: 0.9013512988885244
+train left lung precision: 0.8532694101333618
+train right lung precision: 0.8507844169934591
+train trachea precision: 1.0
+train mean recall: 0.7783010443051656
+train left lung recall: 0.757384447256724
+train right lung recall: 0.7671019514401753
+train trachea recall: 3.011066886567567e-10
+test loss: 0.032645516097545624
+test pixel accuracy: 0.9919347763061523
+test mean dice: 0.7063224464654922
+test left lung dice: 0.8089416325092316
+test right lung dice: 0.7709631323814392
+test trachea dice: 2.449008044969059e-10
+test mean IOU: 0.6805585771799088
+test left lung IOU: 0.7719481587409973
+test right lung IOU: 0.7306650280952454
+test trachea IOU: 2.449008044969059e-10
+test mean precision: 0.9051954001188278
+test left lung precision: 0.8611486703157425
+test right lung precision: 0.854437455534935
+test trachea precision: 1.0
+test mean recall: 0.7597232311964035
+test left lung recall: 0.8071507066488266
+test right lung recall: 0.7845188975334167
+test trachea recall: 2.449008044969059e-10
+
+Iteration: 26
+train loss: 0.04014852127681176
+train pixel accuracy: 0.9899852116902669
+train mean dice: 0.7233067154884338
+train left lung dice: 0.7606861094633738
+train right lung dice: 0.7665256063143412
+train trachea dice: 2.4413127283628986e-10
+train mean IOU: 0.7015806833902994
+train left lung IOU: 0.7281757255395254
+train right lung IOU: 0.7338579813639323
+train trachea IOU: 2.4413127283628986e-10
+train mean precision: 0.8982344686985015
+train left lung precision: 0.8563950300216675
+train right lung precision: 0.8383083005746206
+train trachea precision: 1.0
+train mean recall: 0.7900644719600678
+train left lung recall: 0.7576053082942963
+train right lung recall: 0.774046391248703
+train trachea recall: 2.4413127283628986e-10
+test loss: 0.03831019252538681
+test pixel accuracy: 0.9895315170288086
+test mean dice: 0.7279309630393982
+test left lung dice: 0.8059232831001282
+test right lung dice: 0.7684946209192276
+test trachea dice: 1.429063586216861e-10
+test mean IOU: 0.6931478530168533
+test left lung IOU: 0.7520240545272827
+test right lung IOU: 0.7180444896221161
+test trachea IOU: 1.429063586216861e-10
+test mean precision: 0.9133438318967819
+test left lung precision: 0.9611607939004898
+test right lung precision: 0.778870701789856
+test trachea precision: 1.0
+test mean recall: 0.7681369036436081
+test left lung recall: 0.7680703103542328
+test right lung recall: 0.8097778111696243
+test trachea recall: 1.429063586216861e-10
+
+Iteration: 27
+train loss: 0.041443175698320074
+train pixel accuracy: 0.9891701380411784
+train mean dice: 0.7275825281937917
+train left lung dice: 0.7629376888275147
+train right lung dice: 0.7687681972980499
+train trachea dice: 2.287483461908361e-10
+train mean IOU: 0.7048739790916443
+train left lung IOU: 0.7295243640740713
+train right lung IOU: 0.7340558469295502
+train trachea IOU: 2.287483461908361e-10
+train mean precision: 0.9085251808166503
+train left lung precision: 0.8597526927789052
+train right lung precision: 0.8658228119214376
+train trachea precision: 1.0
+train mean recall: 0.7874162058035533
+train left lung recall: 0.7607568800449371
+train right lung recall: 0.7712833444277446
+train trachea recall: 2.287483461908361e-10
+test loss: 0.03663305984809995
+test pixel accuracy: 0.9903769493103027
+test mean dice: 0.7147262543439865
+test left lung dice: 0.8089243769645691
+test right lung dice: 0.7883794605731964
+test trachea dice: 2.245323180855019e-10
+test mean IOU: 0.6878202557563782
+test left lung IOU: 0.767361581325531
+test right lung IOU: 0.749224066734314
+test trachea IOU: 2.245323180855019e-10
+test mean precision: 0.9047101438045502
+test left lung precision: 0.9074710309505463
+test right lung precision: 0.8066593557596207
+test trachea precision: 1.0
+test mean recall: 0.7735801935195923
+test left lung recall: 0.7943611741065979
+test right lung recall: 0.8154418766498566
+test trachea recall: 2.245323180855019e-10
+
+Iteration: 28
+train loss: 0.03452813122421503
+train pixel accuracy: 0.9908629099527995
+train mean dice: 0.7266826589902242
+train left lung dice: 0.7491578241189321
+train right lung dice: 0.7621400753657023
+train trachea dice: 2.415705954716962e-10
+train mean IOU: 0.7066349625587464
+train left lung IOU: 0.7197399596373241
+train right lung IOU: 0.7314148962497711
+train trachea IOU: 2.415705954716962e-10
+train mean precision: 0.9029827117919922
+train left lung precision: 0.8521070698897044
+train right lung precision: 0.8568409820397694
+train trachea precision: 1.0
+train mean recall: 0.7914597312609355
+train left lung recall: 0.7474700947602589
+train right lung recall: 0.7633673846721649
+train trachea recall: 2.415705954716962e-10
+test loss: 0.03138944460079074
+test pixel accuracy: 0.9917993545532227
+test mean dice: 0.6909307539463043
+test left lung dice: 0.7458252012729645
+test right lung dice: 0.6863420009613037
+test trachea dice: 2.2160527579639933e-10
+test mean IOU: 0.6640621721744537
+test left lung IOU: 0.6990700662136078
+test right lung IOU: 0.6524913758039474
+test trachea IOU: 2.2160527579639933e-10
+test mean precision: 0.8931418061256409
+test left lung precision: 0.9603526741266251
+test right lung precision: 0.7190726846456528
+test trachea precision: 1.0
+test mean recall: 0.7639269977807999
+test left lung recall: 0.7181626558303833
+test right lung recall: 0.7064308673143387
+test trachea recall: 2.2160527579639933e-10
+
+Iteration: 29
+train loss: 0.03678909043471019
+train pixel accuracy: 0.9901089350382487
+train mean dice: 0.7188888291517893
+train left lung dice: 0.7554883400599162
+train right lung dice: 0.756386419137319
+train trachea dice: 2.2435488420772623e-10
+train mean IOU: 0.6984649976094564
+train left lung IOU: 0.7253862222035726
+train right lung IOU: 0.7252170264720916
+train trachea IOU: 2.2435488420772623e-10
+train mean precision: 0.8976498385270436
+train left lung precision: 0.8431913097699483
+train right lung precision: 0.8497581660747529
+train trachea precision: 1.0
+train mean recall: 0.7877229213714599
+train left lung recall: 0.7543427447477976
+train right lung recall: 0.7598676363627116
+train trachea recall: 2.2435488420772623e-10
+test loss: 0.030571240931749344
+test pixel accuracy: 0.9915399551391602
+test mean dice: 0.7471865266561508
+test left lung dice: 0.7882554084062576
+test right lung dice: 0.80486661195755
+test trachea dice: 2.0708129308544265e-10
+test mean IOU: 0.7232235819101334
+test left lung IOU: 0.7502935975790024
+test right lung IOU: 0.7709396332502365
+test trachea IOU: 2.0708129308544265e-10
+test mean precision: 0.952611967921257
+test left lung precision: 0.9558819681406021
+test right lung precision: 0.901953935623169
+test trachea precision: 1.0
+test mean recall: 0.7635358721017838
+test left lung recall: 0.7698879390954971
+test right lung recall: 0.8019695729017258
+test trachea recall: 2.0708129308544265e-10
+
+Iteration: 30
+train loss: 0.03489892774571975
+train pixel accuracy: 0.9903330485026042
+train mean dice: 0.7261110385258992
+train left lung dice: 0.7490497291088104
+train right lung dice: 0.7501166542371114
+train trachea dice: 2.144332142406391e-10
+train mean IOU: 0.7063326259454091
+train left lung IOU: 0.7196278035640716
+train right lung IOU: 0.7202033499876658
+train trachea IOU: 2.144332142406391e-10
+train mean precision: 0.9069226900736491
+train left lung precision: 0.8612336238225301
+train right lung precision: 0.8595344066619873
+train trachea precision: 1.0
+train mean recall: 0.7889248689015707
+train left lung recall: 0.7475151697794596
+train right lung recall: 0.7588426887989044
+train trachea recall: 2.144332142406391e-10
+test loss: 0.02866954868659377
+test pixel accuracy: 0.9917483329772949
+test mean dice: 0.7313670963048935
+test left lung dice: 0.7435291856527328
+test right lung dice: 0.7708845734596252
+test trachea dice: 3.4720225999818055e-10
+test mean IOU: 0.7057886570692062
+test left lung IOU: 0.7021478116512299
+test right lung IOU: 0.7355304807424545
+test trachea IOU: 3.4720225999818055e-10
+test mean precision: 0.934508666396141
+test left lung precision: 0.9689786583185196
+test right lung precision: 0.834547221660614
+test trachea precision: 1.0
+test mean recall: 0.7594327628612518
+test left lung recall: 0.7117097526788712
+test right lung recall: 0.7853384017944336
+test trachea recall: 3.4720225999818055e-10
+
+Iteration: 31
+train loss: 0.03368699395408233
+train pixel accuracy: 0.9905410130818685
+train mean dice: 0.7315802931785583
+train left lung dice: 0.7885152041912079
+train right lung dice: 0.7885172347227732
+train trachea dice: 2.229339819230051e-10
+train mean IOU: 0.711163588364919
+train left lung IOU: 0.7567213515440623
+train right lung IOU: 0.7590610245863597
+train trachea IOU: 2.229339819230051e-10
+train mean precision: 0.9188109636306763
+train left lung precision: 0.869887779156367
+train right lung precision: 0.8865450759728749
+train trachea precision: 1.0
+train mean recall: 0.7831771016120911
+train left lung recall: 0.7921492874622345
+train right lung recall: 0.7875902990500132
+train trachea recall: 2.229339819230051e-10
+test loss: 0.041088422760367393
+test pixel accuracy: 0.9871406555175781
+test mean dice: 0.6945844143629074
+test left lung dice: 0.8086989521980286
+test right lung dice: 0.7828665971755981
+test trachea dice: 2.8920917743979757e-10
+test mean IOU: 0.6614443212747574
+test left lung IOU: 0.7598521709442139
+test right lung IOU: 0.7322933226823807
+test trachea IOU: 2.8920917743979757e-10
+test mean precision: 0.9066311866044998
+test left lung precision: 0.9121657907962799
+test right lung precision: 0.8077277392148972
+test trachea precision: 1.0
+test mean recall: 0.7252407819032669
+test left lung recall: 0.7740095406770706
+test right lung recall: 0.8235877752304077
+test trachea recall: 2.8920917743979757e-10
+
+Iteration: 32
+train loss: 0.0295232060054938
+train pixel accuracy: 0.9913482030232748
+train mean dice: 0.7300519426663716
+train left lung dice: 0.7579603950182597
+train right lung dice: 0.7655286928017934
+train trachea dice: 3.146331542525083e-10
+train mean IOU: 0.7113293906052908
+train left lung IOU: 0.7300401250521342
+train right lung IOU: 0.7372813165187836
+train trachea IOU: 3.146331542525083e-10
+train mean precision: 0.9145027756690979
+train left lung precision: 0.8494690358638763
+train right lung precision: 0.894039249420166
+train trachea precision: 1.0
+train mean recall: 0.7884799639383951
+train left lung recall: 0.7554504056771596
+train right lung recall: 0.7641560932000478
+train trachea recall: 3.146331542525083e-10
+test loss: 0.023960201535373926
+test pixel accuracy: 0.9927048683166504
+test mean dice: 0.7510662972927094
+test left lung dice: 0.7796487063169479
+test right lung dice: 0.7704252302646637
+test trachea dice: 1.5880577061699874e-10
+test mean IOU: 0.7295734733343124
+test left lung IOU: 0.7444930225610733
+test right lung IOU: 0.7411022931337357
+test trachea IOU: 1.5880577061699874e-10
+test mean precision: 0.9468948394060135
+test left lung precision: 0.9261914640665054
+test right lung precision: 0.9144929349422455
+test trachea precision: 1.0
+test mean recall: 0.7801032066345215
+test left lung recall: 0.7820488959550858
+test right lung recall: 0.7691981047391891
+test trachea recall: 1.5880577061699874e-10
+
+Iteration: 33
+train loss: 0.030278990355630715
+train pixel accuracy: 0.9908747355143229
+train mean dice: 0.7475280880928039
+train left lung dice: 0.7865204413731893
+train right lung dice: 0.7914804081122081
+train trachea dice: 2.5956958573288463e-10
+train mean IOU: 0.7282164712746938
+train left lung IOU: 0.7583132068316142
+train right lung IOU: 0.7617527802785238
+train trachea IOU: 2.5956958573288463e-10
+train mean precision: 0.9334288458029429
+train left lung precision: 0.9091429273287456
+train right lung precision: 0.8911435623963674
+train trachea precision: 1.0
+train mean recall: 0.7861075401306152
+train left lung recall: 0.7843549907207489
+train right lung recall: 0.7948008994261424
+train trachea recall: 2.5956958573288463e-10
+test loss: 0.027057179249823093
+test pixel accuracy: 0.9917411804199219
+test mean dice: 0.7347187995910645
+test left lung dice: 0.8302417695522308
+test right lung dice: 0.7879770398139954
+test trachea dice: 2.7653005579830747e-10
+test mean IOU: 0.7090555876493454
+test left lung IOU: 0.7864952981472015
+test right lung IOU: 0.7547339051961899
+test trachea IOU: 2.7653005579830747e-10
+test mean precision: 0.934934452176094
+test left lung precision: 0.9011209160089493
+test right lung precision: 0.9036822468042374
+test trachea precision: 1.0
+test mean recall: 0.7615162432193756
+test left lung recall: 0.8343493789434433
+test right lung recall: 0.7861367166042328
+test trachea recall: 2.7653005579830747e-10
+
+Iteration: 34
+train loss: 0.02572552046428124
+train pixel accuracy: 0.992175801595052
+train mean dice: 0.7439133524894714
+train left lung dice: 0.7516517480214436
+train right lung dice: 0.7571715672810873
+train trachea dice: 2.527764567106239e-10
+train mean IOU: 0.7258099595705668
+train left lung IOU: 0.7234389742215475
+train right lung IOU: 0.7310741563638051
+train trachea IOU: 2.527764567106239e-10
+train mean precision: 0.9221045633157094
+train left lung precision: 0.8820694863796235
+train right lung precision: 0.8842441479365031
+train trachea precision: 1.0
+train mean recall: 0.7956877092520396
+train left lung recall: 0.7499838372071584
+train right lung recall: 0.7599958995978038
+train trachea recall: 2.527764567106239e-10
+test loss: 0.02556742401793599
+test pixel accuracy: 0.9922113418579102
+test mean dice: 0.720940425992012
+test left lung dice: 0.7984463721513748
+test right lung dice: 0.7706247866153717
+test trachea dice: 2.6532769384357557e-10
+test mean IOU: 0.7004353106021881
+test left lung IOU: 0.7634066492319107
+test right lung IOU: 0.744149312376976
+test trachea IOU: 2.6532769384357557e-10
+test mean precision: 0.967492938041687
+test left lung precision: 0.9718988984823227
+test right lung precision: 0.9305798560380936
+test trachea precision: 1.0
+test mean recall: 0.7254795581102371
+test left lung recall: 0.7797120213508606
+test right lung recall: 0.7561016529798508
+test trachea recall: 2.6532769384357557e-10
+
+Iteration: 35
+train loss: 0.0258080108401676
+train pixel accuracy: 0.9919399897257487
+train mean dice: 0.7508330444494883
+train left lung dice: 0.7524017949899038
+train right lung dice: 0.7615555961926778
+train trachea dice: 2.732345176503781e-10
+train mean IOU: 0.7327553113301595
+train left lung IOU: 0.725199431180954
+train right lung IOU: 0.734524796406428
+train trachea IOU: 2.732345176503781e-10
+train mean precision: 0.9284742573897043
+train left lung precision: 0.880847547451655
+train right lung precision: 0.9045751551787059
+train trachea precision: 1.0
+train mean recall: 0.7965523441632588
+train left lung recall: 0.7523511449495951
+train right lung recall: 0.7612641712029775
+train trachea recall: 2.732345176503781e-10
+test loss: 0.025393418967723846
+test pixel accuracy: 0.9919214248657227
+test mean dice: 0.7536893039941788
+test left lung dice: 0.8333439528942108
+test right lung dice: 0.8417864739894867
+test trachea dice: 2.2383610590037684e-10
+test mean IOU: 0.7317160218954086
+test left lung IOU: 0.8021952509880066
+test right lung IOU: 0.8070151507854462
+test trachea IOU: 2.2383610590037684e-10
+test mean precision: 0.9364486485719681
+test left lung precision: 0.9287513941526413
+test right lung precision: 0.8805945366621017
+test trachea precision: 1.0
+test mean recall: 0.7892088890075684
+test left lung recall: 0.8227248340845108
+test right lung recall: 0.8574017286300659
+test trachea recall: 2.2383610590037684e-10
+
+Iteration: 36
+train loss: 0.026030974028011165
+train pixel accuracy: 0.9917234420776367
+train mean dice: 0.7460207204023998
+train left lung dice: 0.7730510632197062
+train right lung dice: 0.7848027010758718
+train trachea dice: 2.8489530549495137e-10
+train mean IOU: 0.7271932939688365
+train left lung IOU: 0.7451526105403901
+train right lung IOU: 0.7562188724676768
+train trachea IOU: 2.8489530549495137e-10
+train mean precision: 0.9314729571342468
+train left lung precision: 0.8947161753972371
+train right lung precision: 0.8997026284535726
+train trachea precision: 1.0
+train mean recall: 0.7878700276215871
+train left lung recall: 0.7722578724225362
+train right lung recall: 0.7871854682763417
+train trachea recall: 2.8489530549495137e-10
+test loss: 0.029186181724071503
+test pixel accuracy: 0.9917306900024414
+test mean dice: 0.7207032442092896
+test left lung dice: 0.8283269852399826
+test right lung dice: 0.8494076430797577
+test trachea dice: 2.942801974326059e-10
+test mean IOU: 0.7000689655542374
+test left lung IOU: 0.7930382937192917
+test right lung IOU: 0.822793498635292
+test trachea IOU: 2.942801974326059e-10
+test mean precision: 0.9680753201246262
+test left lung precision: 0.9884497672319412
+test right lung precision: 0.9157761782407761
+test trachea precision: 1.0
+test mean recall: 0.730227142572403
+test left lung recall: 0.8022111803293228
+test right lung recall: 0.8494076132774353
+test trachea recall: 2.942801974326059e-10
+
+Iteration: 37
+train loss: 0.020931798250724873
+train pixel accuracy: 0.9928934097290039
+train mean dice: 0.7554063936074574
+train left lung dice: 0.7623958388964335
+train right lung dice: 0.7579899470011393
+train trachea dice: 2.5194878081983653e-10
+train mean IOU: 0.7390442530314127
+train left lung IOU: 0.737149445215861
+train right lung IOU: 0.7341499547163646
+train trachea IOU: 2.5194878081983653e-10
+train mean precision: 0.9295740365982056
+train left lung precision: 0.8886332849661509
+train right lung precision: 0.9000887632369995
+train trachea precision: 1.0
+train mean recall: 0.8033014138539633
+train left lung recall: 0.7621745785077413
+train right lung recall: 0.7571045915285747
+train trachea recall: 2.5194878081983653e-10
+test loss: 0.023745019920170307
+test pixel accuracy: 0.9923491477966309
+test mean dice: 0.7230455428361893
+test left lung dice: 0.8304538726806641
+test right lung dice: 0.7918077558279037
+test trachea dice: 2.67569216783059e-10
+test mean IOU: 0.6985992938280106
+test left lung IOU: 0.7905153185129166
+test right lung IOU: 0.7584075182676315
+test trachea IOU: 2.67569216783059e-10
+test mean precision: 0.9129976034164429
+test left lung precision: 0.9369931668043137
+test right lung precision: 0.8019995838403702
+test trachea precision: 1.0
+test mean recall: 0.7746596485376358
+test left lung recall: 0.8143723756074905
+test right lung recall: 0.8064815104007721
+test trachea recall: 2.67569216783059e-10
+
+Iteration: 38
+train loss: 0.024677656590938568
+train pixel accuracy: 0.9917786916097006
+train mean dice: 0.746669618288676
+train left lung dice: 0.760290781656901
+train right lung dice: 0.7724263469378153
+train trachea dice: 2.5057521890747834e-10
+train mean IOU: 0.7297078092892965
+train left lung IOU: 0.734534619251887
+train right lung IOU: 0.7472970664501191
+train trachea IOU: 2.5057521890747834e-10
+train mean precision: 0.927019735177358
+train left lung precision: 0.8945575992266337
+train right lung precision: 0.8865015347798665
+train trachea precision: 1.0
+train mean recall: 0.7944403707981109
+train left lung recall: 0.7624281346797943
+train right lung recall: 0.7740179399649302
+train trachea recall: 2.5057521890747834e-10
+test loss: 0.023500104900449514
+test pixel accuracy: 0.9923272132873535
+test mean dice: 0.71237912774086
+test left lung dice: 0.8719722479581833
+test right lung dice: 0.8276650607585907
+test trachea dice: 3.917992180690888e-10
+test mean IOU: 0.6882049888372421
+test left lung IOU: 0.8289343863725662
+test right lung IOU: 0.7981805056333542
+test trachea IOU: 3.917992180690888e-10
+test mean precision: 0.9203225374221802
+test left lung precision: 0.885529637336731
+test right lung precision: 0.875437930226326
+test trachea precision: 1.0
+test mean recall: 0.755927100777626
+test left lung recall: 0.8948857337236404
+test right lung recall: 0.8416455090045929
+test trachea recall: 3.917992180690888e-10
+
+Iteration: 39
+train loss: 0.023211717791855335
+train pixel accuracy: 0.9920333862304688
+train mean dice: 0.7424676418304443
+train left lung dice: 0.7711732427279154
+train right lung dice: 0.776021256049474
+train trachea dice: 2.645385410726675e-10
+train mean IOU: 0.7252837518850962
+train left lung IOU: 0.744244368871053
+train right lung IOU: 0.7513984560966491
+train trachea IOU: 2.645385410726675e-10
+train mean precision: 0.92031103571256
+train left lung precision: 0.881023762623469
+train right lung precision: 0.8799092610677083
+train trachea precision: 1.0
+train mean recall: 0.7993310729662577
+train left lung recall: 0.7725433548291524
+train right lung recall: 0.7785748183727265
+train trachea recall: 2.645385410726675e-10
+test loss: 0.02722932631149888
+test pixel accuracy: 0.991480827331543
+test mean dice: 0.7489680647850037
+test left lung dice: 0.8259526342153549
+test right lung dice: 0.8115765452384949
+test trachea dice: 2.639924806535632e-10
+test mean IOU: 0.7248944491147995
+test left lung IOU: 0.7863282710313797
+test right lung IOU: 0.7789800465106964
+test trachea IOU: 2.639924806535632e-10
+test mean precision: 0.9774681925773621
+test left lung precision: 0.9906662702560425
+test right lung precision: 0.9417383074760437
+test trachea precision: 1.0
+test mean recall: 0.7448189854621887
+test left lung recall: 0.7935395687818527
+test right lung recall: 0.8081048429012299
+test trachea recall: 2.639924806535632e-10
+
+Iteration: 40
+train loss: 0.024271497689187526
+train pixel accuracy: 0.992247200012207
+train mean dice: 0.7446504672368367
+train left lung dice: 0.77357124487559
+train right lung dice: 0.7718384404977162
+train trachea dice: 2.761358960934324e-10
+train mean IOU: 0.7284899175167083
+train left lung IOU: 0.7479720552762349
+train right lung IOU: 0.7489560067653656
+train trachea IOU: 2.761358960934324e-10
+train mean precision: 0.9308973451455435
+train left lung precision: 0.900488018989563
+train right lung precision: 0.8922039488951365
+train trachea precision: 1.0
+train mean recall: 0.7888369739055634
+train left lung recall: 0.7705975572268168
+train right lung recall: 0.7740382929642995
+train trachea recall: 2.761358960934324e-10
+test loss: 0.026598379015922546
+test pixel accuracy: 0.9917068481445312
+test mean dice: 0.7192976027727127
+test left lung dice: 0.788203701376915
+test right lung dice: 0.7837515324354172
+test trachea dice: 2.0290882515872077e-10
+test mean IOU: 0.697759598493576
+test left lung IOU: 0.7547524720430374
+test right lung IOU: 0.75258868932724
+test trachea IOU: 2.0290882515872077e-10
+test mean precision: 0.9247809499502182
+test left lung precision: 0.9286274015903473
+test right lung precision: 0.8457154333591461
+test trachea precision: 1.0
+test mean recall: 0.7695625722408295
+test left lung recall: 0.7823523730039597
+test right lung recall: 0.799772709608078
+test trachea recall: 2.0290882515872077e-10
+
+Iteration: 41
+train loss: 0.022265481234838565
+train pixel accuracy: 0.9925097783406576
+train mean dice: 0.7493564506371816
+train left lung dice: 0.7697805563608805
+train right lung dice: 0.762663729985555
+train trachea dice: 2.770246296246448e-10
+train mean IOU: 0.7330659608046214
+train left lung IOU: 0.7438749829928081
+train right lung IOU: 0.7396978259086608
+train trachea IOU: 2.770246296246448e-10
+train mean precision: 0.9314266006151836
+train left lung precision: 0.8916723330815634
+train right lung precision: 0.9026074349880219
+train trachea precision: 1.0
+train mean recall: 0.7940195103486379
+train left lung recall: 0.7715166687965394
+train right lung recall: 0.762625120083491
+train trachea recall: 2.770246296246448e-10
+test loss: 0.0240282928571105
+test pixel accuracy: 0.9926934242248535
+test mean dice: 0.7655743211507797
+test left lung dice: 0.8100499957799911
+test right lung dice: 0.8069853782653809
+test trachea dice: 2.0283221630057469e-10
+test mean IOU: 0.7463197261095047
+test left lung IOU: 0.7774878740310669
+test right lung IOU: 0.7817837446928024
+test trachea IOU: 2.0283221630057469e-10
+test mean precision: 0.9834553599357605
+test left lung precision: 0.989994004368782
+test right lung precision: 0.9603720605373383
+test trachea precision: 1.0
+test mean recall: 0.7586441338062286
+test left lung recall: 0.7856995910406113
+test right lung recall: 0.7949203103780746
+test trachea recall: 2.0283221630057469e-10
+
+Iteration: 42
+train loss: 0.021507276128977536
+train pixel accuracy: 0.9927455266316731
+train mean dice: 0.7517997264862061
+train left lung dice: 0.7651867210865021
+train right lung dice: 0.7693790415922801
+train trachea dice: 2.871587067669138e-10
+train mean IOU: 0.7359634101390838
+train left lung IOU: 0.7418619533379872
+train right lung IOU: 0.7451948920885721
+train trachea IOU: 2.871587067669138e-10
+train mean precision: 0.9273516555627187
+train left lung precision: 0.8881673991680146
+train right lung precision: 0.893887476126353
+train trachea precision: 1.0
+train mean recall: 0.80031010111173
+train left lung recall: 0.7671321094036102
+train right lung recall: 0.772339806954066
+train trachea recall: 2.871587067669138e-10
+test loss: 0.023961281403899193
+test pixel accuracy: 0.9929146766662598
+test mean dice: 0.7474256902933121
+test left lung dice: 0.8296174257993698
+test right lung dice: 0.795472115278244
+test trachea dice: 3.263601645875358e-10
+test mean IOU: 0.726880744099617
+test left lung IOU: 0.7920261323451996
+test right lung IOU: 0.7714286148548126
+test trachea IOU: 3.263601645875358e-10
+test mean precision: 0.9527832120656967
+test left lung precision: 0.9782449752092361
+test right lung precision: 0.8801046311855316
+test trachea precision: 1.0
+test mean recall: 0.7683367133140564
+test left lung recall: 0.80789914727211
+test right lung recall: 0.7861734330654144
+test trachea recall: 3.263601645875358e-10
+
+Iteration: 43
+train loss: 0.020083707415809234
+train pixel accuracy: 0.9927738189697266
+train mean dice: 0.7790161589781444
+train left lung dice: 0.7789550522963206
+train right lung dice: 0.7924683630466461
+train trachea dice: 2.412396231850818e-10
+train mean IOU: 0.7627851267655691
+train left lung IOU: 0.7552070180575053
+train right lung IOU: 0.7675233006477356
+train trachea IOU: 2.412396231850818e-10
+train mean precision: 0.9492125113805135
+train left lung precision: 0.9274623493353525
+train right lung precision: 0.9201751351356506
+train trachea precision: 1.0
+train mean recall: 0.8087825119495392
+train left lung recall: 0.7776250461737315
+train right lung recall: 0.7945557733376821
+train trachea recall: 2.412396231850818e-10
+test loss: 0.021006944589316845
+test pixel accuracy: 0.9932823181152344
+test mean dice: 0.7570328414440155
+test left lung dice: 0.8279077708721161
+test right lung dice: 0.8025657087564468
+test trachea dice: 1.6434522666364249e-10
+test mean IOU: 0.7342276275157928
+test left lung IOU: 0.7936282753944397
+test right lung IOU: 0.7684295773506165
+test trachea IOU: 1.6434522666364249e-10
+test mean precision: 0.9288389831781387
+test left lung precision: 0.9174973219633102
+test right lung precision: 0.8690195977687836
+test trachea precision: 1.0
+test mean recall: 0.8008290827274323
+test left lung recall: 0.8224615007638931
+test right lung recall: 0.8065882325172424
+test trachea recall: 1.6434522666364249e-10
+
+Iteration: 44
+train loss: 0.02083811517804861
+train pixel accuracy: 0.9927041371663411
+train mean dice: 0.7712662637233734
+train left lung dice: 0.7896201431751251
+train right lung dice: 0.7804285844167074
+train trachea dice: 2.6780835558441276e-10
+train mean IOU: 0.7552379707495371
+train left lung IOU: 0.7652670760949453
+train right lung IOU: 0.7566967964172363
+train trachea IOU: 2.6780835558441276e-10
+train mean precision: 0.943631515900294
+train left lung precision: 0.9173916280269623
+train right lung precision: 0.9135028640429179
+train trachea precision: 1.0
+train mean recall: 0.8053323090076446
+train left lung recall: 0.7889246463775634
+train right lung recall: 0.7833222329616547
+train trachea recall: 2.6780835558441276e-10
+test loss: 0.025161005090922117
+test pixel accuracy: 0.9921441078186035
+test mean dice: 0.732611283659935
+test left lung dice: 0.8151560127735138
+test right lung dice: 0.8201777786016464
+test trachea dice: 2.18093348935966e-10
+test mean IOU: 0.7140182703733444
+test left lung IOU: 0.7863984704017639
+test right lung IOU: 0.7931562662124634
+test trachea IOU: 2.18093348935966e-10
+test mean precision: 0.9602117538452148
+test left lung precision: 0.9595805555582047
+test right lung precision: 0.9210546910762787
+test trachea precision: 1.0
+test mean recall: 0.7521874308586121
+test left lung recall: 0.8018587082624435
+test right lung recall: 0.8140785396099091
+test trachea recall: 2.18093348935966e-10
+
+Iteration: 45
+train loss: 0.016487293969839813
+train pixel accuracy: 0.9942053476969401
+train mean dice: 0.7686706403891246
+train left lung dice: 0.8047416170438131
+train right lung dice: 0.7991869012514751
+train trachea dice: 2.448493639321351e-10
+train mean IOU: 0.753733483950297
+train left lung IOU: 0.7816859364509583
+train right lung IOU: 0.7774311045805613
+train trachea IOU: 2.448493639321351e-10
+train mean precision: 0.9489655395348867
+train left lung precision: 0.9278716286023457
+train right lung precision: 0.9190249065558116
+train trachea precision: 1.0
+train mean recall: 0.8005389869213104
+train left lung recall: 0.8030547638734181
+train right lung recall: 0.802728780110677
+train trachea recall: 2.448493639321351e-10
+test loss: 0.024901955388486385
+test pixel accuracy: 0.9916625022888184
+test mean dice: 0.7506336122751236
+test left lung dice: 0.8412595093250275
+test right lung dice: 0.8247037529945374
+test trachea dice: 1.6756828216668573e-10
+test mean IOU: 0.7269786298274994
+test left lung IOU: 0.8030300885438919
+test right lung IOU: 0.7919682562351227
+test trachea IOU: 1.6756828216668573e-10
+test mean precision: 0.9347113817930222
+test left lung precision: 0.9290039837360382
+test right lung precision: 0.8751301169395447
+test trachea precision: 1.0
+test mean recall: 0.7860729247331619
+test left lung recall: 0.8459179997444153
+test right lung recall: 0.8326132148504257
+test trachea recall: 1.6756828216668573e-10
+
+Iteration: 46
+train loss: 0.019475271335492532
+train pixel accuracy: 0.9932701110839843
+train mean dice: 0.7665565530459086
+train left lung dice: 0.7783437192440033
+train right lung dice: 0.7796591877937317
+train trachea dice: 2.535212590785522e-10
+train mean IOU: 0.7501543402671814
+train left lung IOU: 0.7520248552163442
+train right lung IOU: 0.7567714134852092
+train trachea IOU: 2.535212590785522e-10
+train mean precision: 0.9382856567700704
+train left lung precision: 0.8998492439587911
+train right lung precision: 0.9150076647599538
+train trachea precision: 1.0
+train mean recall: 0.8065374692281088
+train left lung recall: 0.7846896966298421
+train right lung recall: 0.7828393201033275
+train trachea recall: 2.535212590785522e-10
+test loss: 0.04147215932607651
+test pixel accuracy: 0.9862494468688965
+test mean dice: 0.6975486129522324
+test left lung dice: 0.8372386544942856
+test right lung dice: 0.7241570949554443
+test trachea dice: 2.2817144701425818e-10
+test mean IOU: 0.6721335649490356
+test left lung IOU: 0.8048918396234512
+test right lung IOU: 0.6802587062120438
+test trachea IOU: 2.2817144701425818e-10
+test mean precision: 0.8929153829813004
+test left lung precision: 0.8720003962516785
+test right lung precision: 0.8067457675933838
+test trachea precision: 1.0
+test mean recall: 0.7715691328048706
+test left lung recall: 0.8559534847736359
+test right lung recall: 0.7712538093328476
+test trachea recall: 2.2817144701425818e-10
+
+Iteration: 47
+train loss: 0.01703052846714854
+train pixel accuracy: 0.9938519795735677
+train mean dice: 0.7682445466518402
+train left lung dice: 0.7832282980283102
+train right lung dice: 0.7840052624543508
+train trachea dice: 2.564434435636809e-10
+train mean IOU: 0.7532375633716584
+train left lung IOU: 0.7597803950309754
+train right lung IOU: 0.7624322652816773
+train trachea IOU: 2.564434435636809e-10
+train mean precision: 0.9415045698483785
+train left lung precision: 0.9133966445922852
+train right lung precision: 0.911116999387741
+train trachea precision: 1.0
+train mean recall: 0.8067758480707804
+train left lung recall: 0.7870112518469493
+train right lung recall: 0.7864412168661753
+train trachea recall: 2.564434435636809e-10
+test loss: 0.019731219625100493
+test pixel accuracy: 0.9931235313415527
+test mean dice: 0.7612138241529465
+test left lung dice: 0.8507244884967804
+test right lung dice: 0.8157294392585754
+test trachea dice: 1.7692710491123975e-10
+test mean IOU: 0.7403205037117004
+test left lung IOU: 0.8181245625019073
+test right lung IOU: 0.7856494188308716
+test trachea IOU: 1.7692710491123975e-10
+test mean precision: 0.9607126414775848
+test left lung precision: 0.96823750436306
+test right lung precision: 0.9139003157615662
+test trachea precision: 1.0
+test mean recall: 0.777256652712822
+test left lung recall: 0.8462837040424347
+test right lung recall: 0.82923623919487
+test trachea recall: 1.7692710491123975e-10
+
+Iteration: 48
+train loss: 0.019662726701547704
+train pixel accuracy: 0.9935234705607097
+train mean dice: 0.7749616463979085
+train left lung dice: 0.778382001320521
+train right lung dice: 0.778794542948405
+train trachea dice: 3.3454155510629727e-10
+train mean IOU: 0.760394936800003
+train left lung IOU: 0.7554904540379842
+train right lung IOU: 0.7579859217007955
+train trachea IOU: 3.3454155510629727e-10
+train mean precision: 0.9523593246936798
+train left lung precision: 0.9246621509393056
+train right lung precision: 0.932415771484375
+train trachea precision: 1.0
+train mean recall: 0.8041759173075358
+train left lung recall: 0.7808468600114187
+train right lung recall: 0.7795974830786387
+train trachea recall: 3.3454155510629727e-10
+test loss: 0.02734725968912244
+test pixel accuracy: 0.991936206817627
+test mean dice: 0.7672384977340698
+test left lung dice: 0.777247279882431
+test right lung dice: 0.7588432431221008
+test trachea dice: 2.4825581521059625e-10
+test mean IOU: 0.7442392706871033
+test left lung IOU: 0.7395401298999786
+test right lung IOU: 0.7275525629520416
+test trachea IOU: 2.4825581521059625e-10
+test mean precision: 0.9772174805402756
+test left lung precision: 0.9851760566234589
+test right lung precision: 0.9464763551950455
+test trachea precision: 1.0
+test mean recall: 0.7636786103248596
+test left lung recall: 0.7524333000183105
+test right lung recall: 0.7417275160551071
+test trachea recall: 2.4825581521059625e-10
+
+Iteration: 49
+train loss: 0.019787829586615166
+train pixel accuracy: 0.9931526184082031
+train mean dice: 0.7758176505565644
+train left lung dice: 0.7974753300348918
+train right lung dice: 0.7862275739510854
+train trachea dice: 2.4997151802190015e-10
+train mean IOU: 0.7608285407225291
+train left lung IOU: 0.7746225396792094
+train right lung IOU: 0.7641130566596985
+train trachea IOU: 2.4997151802190015e-10
+train mean precision: 0.9504668672879537
+train left lung precision: 0.9239856680234273
+train right lung precision: 0.9274148960908254
+train trachea precision: 1.0
+train mean recall: 0.8057362695535024
+train left lung recall: 0.7985878984133402
+train right lung recall: 0.789454181989034
+train trachea recall: 2.4997151802190015e-10
+test loss: 0.022519175428897142
+test pixel accuracy: 0.9922981262207031
+test mean dice: 0.7273733019828796
+test left lung dice: 0.8123792409896851
+test right lung dice: 0.7681781947612762
+test trachea dice: 2.0394354607877752e-10
+test mean IOU: 0.7048503756523132
+test left lung IOU: 0.7777115404605865
+test right lung IOU: 0.7352771311998367
+test trachea IOU: 2.0394354607877752e-10
+test mean precision: 0.9243060052394867
+test left lung precision: 0.9516609013080597
+test right lung precision: 0.821257084608078
+test trachea precision: 1.0
+test mean recall: 0.7761854380369186
+test left lung recall: 0.7978722751140594
+test right lung recall: 0.8041214495897293
+test trachea recall: 2.0394354607877752e-10
+
+Iteration: 50
+train loss: 0.015602027686933676
+train pixel accuracy: 0.9942837397257487
+train mean dice: 0.7661613782246908
+train left lung dice: 0.7732005774974823
+train right lung dice: 0.7846585055192311
+train trachea dice: 2.560642822779791e-10
+train mean IOU: 0.7515609721342723
+train left lung IOU: 0.7505979319413503
+train right lung IOU: 0.7634598970413208
+train trachea IOU: 2.560642822779791e-10
+train mean precision: 0.9468729456265768
+train left lung precision: 0.9218057612578074
+train right lung precision: 0.918813016017278
+train trachea precision: 1.0
+train mean recall: 0.7978854258855184
+train left lung recall: 0.7728594044844309
+train right lung recall: 0.787463500102361
+train trachea recall: 2.560642822779791e-10
+test loss: 0.018316383473575115
+test pixel accuracy: 0.9935274124145508
+test mean dice: 0.7920233011245728
+test left lung dice: 0.8544711470603943
+test right lung dice: 0.8259141743183136
+test trachea dice: 0.000372024008162955
+test mean IOU: 0.7715218216180801
+test left lung IOU: 0.8218308389186859
+test right lung IOU: 0.7972314059734344
+test trachea IOU: 0.0001905489796508869
+test mean precision: 0.9603522568941116
+test left lung precision: 0.9705471843481064
+test right lung precision: 0.910509467124939
+test trachea precision: 1.0
+test mean recall: 0.8045889288187027
+test left lung recall: 0.8416311889886856
+test right lung recall: 0.8219450265169144
+test trachea recall: 0.0001905489796508869
+
